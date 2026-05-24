@@ -9,7 +9,7 @@
     }
   },
   "authmodal": {
-    "change_status_instruction": "Change your VRChat status to the code below so we know it's really you.",
+    "change_status_instruction": "Change your VRChat status to the code below so the system knows it's really you.",
     "copied": "Copied!",
     "copy": "Copy",
     "enter_username": "Enter your VRChat username to continue.",
@@ -151,7 +151,7 @@
     "followers": "Followers",
     "followers_count": "{count} Followers",
     "following": "Following",
-    "for_general_inquiries_and_community_supp": "For general inquiries and community support, you can also reach us through our",
+    "for_general_inquiries_and_community_supp": "For general inquiries and community support, you can also reach me on the",
     "galleries": "Galleries",
     "gallery_link_copied": "Gallery link copied!",
     "gallevr_logo": "{appName} Logo",
@@ -241,9 +241,9 @@
       "already_friends_skip": "Already friends? Skip",
       "alternative_method_using_a_code_in_your_": "Alternative method using a code in your {platformName} status.",
       "automatic_verification": "Automatic Verification",
-      "automatic_verification_uses_a_secure_loc": "Automatic verification uses a secure local login process. Your {platformName} credentials are never sent to our servers. Simply follow the app's built-in onboarding to get started.",
+      "automatic_verification_uses_a_secure_loc": "Automatic verification uses a secure local login process. Your {platformName} credentials are never sent to GalleVR's servers. Simply follow the app's built-in onboarding to get started.",
       "back_to_options": "Back to Options",
-      "link_your_vrchat_account_to_keep_your_ph": "Link your {platformName} account to keep your photos private and secure. Your credentials are safe and are not stored on our servers.",
+      "link_your_vrchat_account_to_keep_your_ph": "Link your {platformName} account to keep your photos private and secure. Your credentials are safe and are not stored on GalleVR's servers.",
       "manual_verification": "Manual Verification",
       "manual_verification_uses_a_unique_code_t": "Manual verification uses a unique code that you'll set in your {platformName} status. The app will guide you through this process.",
       "next_step": "Next Step:",
@@ -309,7 +309,7 @@
       "your_profile": "Your profile"
     },
     "communityguidelinesheader": {
-      "help_us_keep_gallevr_a_safe_and_welcomin": "Help us keep {appName} a safe and welcoming space"
+      "help_us_keep_gallevr_a_safe_and_welcomin": "Help keep {appName} a safe and welcoming space"
     },
     "communityguidelinespage": {
       "1_respect_and_conduct": "1. Respect and Conduct",
@@ -319,13 +319,13 @@
       "all_content_must_follow": "All content must follow",
       "be_kind": "Be Kind:",
       "content_depicting_illegal_acts_extreme_v": "Content depicting illegal acts, extreme violence, or self-harm is not allowed and will be reported to authorities if necessary.",
-      "dont_pretend_to_be_other_users_vrchat_st": "Don't pretend to be other users, {platformName} staff, or {appName} developers.",
+      "dont_pretend_to_be_other_users_vrchat_st": "Don't pretend to be other users, {platformName} staff, or the {appName} developer.",
       "email_support": "Email Support",
       "explicit_content_is_not_allowed_to_be_po": "Explicit content is NOT allowed to be posted onto the feed or posted in public galleries.",
       "explicitly_pornographic_or_illegal_conte": "Explicitly pornographic or illegal content is strictly prohibited.",
       "gallevr_was_built_to_celebrate_the_creat": "{appName} was built to celebrate the creativity and community of {platformName} photographers. These guidelines are designed to ensure that every user feels safe, respected, and inspired when sharing their virtual moments.",
       "if_a_world_creator_or_avatar_artist_asks": "If a world creator or avatar artist asks for their work not to be featured in a certain way, please respect their wishes.",
-      "if_you_encounter_content_or_behavior_tha": "If you encounter content or behavior that violates these guidelines, please use the report feature on the photo/profile or contact us directly.",
+      "if_you_encounter_content_or_behavior_tha": "If you encounter content or behavior that violates these guidelines, please use the report feature on the photo/profile or contact the moderation team directly.",
       "join_discord": "Join {social}",
       "never_share_private_reallife_information": "Never share private real-life information about other users without their explicit consent.",
       "no_doxxing": "No Doxxing:",
@@ -344,7 +344,7 @@
       "violations_of_these_guidelines_may_resul": "Violations of these guidelines may result in:",
       "vrchat_tos_compliance": "{platformName} TOS Compliance:",
       "vrchats_terms_of_service": "{platformName}'s Terms of Service",
-      "we_reserve_the_right_to_determine_what_c": "We reserve the right to determine what constitutes a violation and take action accordingly.",
+      "we_reserve_the_right_to_determine_what_c": "The moderation team reserves the right to determine what constitutes a violation and take action accordingly.",
       "while_artistic_nudity_or_suggestive_avat": "While artistic nudity or suggestive avatars are common in VR, please use discretion and keep such content strictly in private galleries.",
       "you_are_responsible_for_the_content_you_": "You are responsible for the content you upload. All photos must adhere to the following:"
     },
@@ -689,7 +689,7 @@
       "desktop_application": "Desktop application",
       "download_galle": "Download {appName}",
       "gallevr_is_a_solo_project_your_support_h": "{appName} is a solo project. Your support helps cover costs and keeps the platform alive for everyone.",
-      "join_our_amazing_supporters": "Join our amazing supporters!",
+      "join_our_amazing_supporters": "Join the amazing supporters!",
       "need_help": "Need help?",
       "quest_pico": "{device} / {device}",
       "support_development": "Support Development",
@@ -963,7 +963,7 @@
       "submit": "Submit",
       "submit_report": "Submit Report",
       "unknown_user": "Unknown User",
-      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to our moderation team for review. We take all reports seriously and will investigate as soon as possible."
+      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to the moderation team for review. We take all reports seriously and will investigate as soon as possible."
     },
     "searchbar": {
       "no_recent_searches": "No recent searches",
@@ -1047,7 +1047,7 @@
       "all_features_have_been_automatically_act": "All features have been automatically activated for your account. You can manage your subscription anytime from your profile settings.",
       "eternal_gratitude": "My eternal gratitude",
       "helps_me_keep_the_lights_on_and_the_serv": "helps me keep the lights on and the servers fast.",
-      "it_might_take_a_few_seconds_for_the_badg": "It might take a few seconds for the badge to appear everywhere as we refresh the cache. Thank you for your patience!",
+      "it_might_take_a_few_seconds_for_the_badg": "It might take a few seconds for the badge to appear everywhere as the cache refreshes. Thank you for your patience!",
       "keeping_the_lights_on": "Keeping the Lights On",
       "profile_update": "Profile Update",
       "return_home": "Return Home",
@@ -1111,7 +1111,7 @@
       "how_your_donation_helps": "How your donation helps",
       "intro_paragraph_1": "Hi there, I'm {name} ! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
       "intro_paragraph_2": "I've spent a long time figuring out how to keep this service free and unlimited for everyone across {windows}, {linux}, {quest}, and {pico} .",
-      "intro_paragraph_3": "To keep your data private, we don't use {any} external cloud services. Everything is hosted in-house and built by me. A huge shoutout to my friend {venrey} for providing the hosting that makes this all possible.",
+      "intro_paragraph_3": "To keep your data private, I don't use {any} external cloud services. Everything is hosted in-house and built by me. A huge shoutout to my friend {venrey} for providing the hosting that makes this all possible.",
       "its_developed_from_scratch_purely_out_of": ". It's developed from scratch purely out of love for the VR community.",
       "ive_spent_a_long_time_figuring_out_how_t": "I've spent a long time figuring out how to keep this service free and unlimited for everyone across",
       "linux": "{os}",
@@ -1145,7 +1145,7 @@
           "name": "Supporter"
         }
       },
-      "to_keep_your_data_private_we_dont_use": "To keep your data private, we don't use",
+      "to_keep_your_data_private_we_dont_use": "To keep your data private, I don't use",
       "unlock_exclusive_badges_8k_photo_uploads": "Unlock exclusive badges, 8K photo uploads, and more with a monthly subscription.",
       "venrey": "Venrey"
     },
@@ -1340,6 +1340,10 @@
     }
   },
   "pages": {
+    "about": {
+      "description": "Learn what GalleVR is, why it was created, and how it helps you organize, search, and share your VRChat screenshots and VR photos.",
+      "title": "About GalleVR"
+    },
     "credits": {
       "description": "Meet the creators, developers, designers, and testers behind {appName}.",
       "title": "Credits"
@@ -1386,7 +1390,7 @@
     },
     "loading_profile": "Loading Profile...",
     "privacy": {
-      "description": "Read the {appName} Privacy Policy to understand how we protect your photos and personal data.",
+      "description": "Read the {appName} Privacy Policy to understand how your photos and personal data are protected.",
       "title": "Privacy Policy"
     },
     "public_gallery": "{name}'s Gallery",
@@ -1429,7 +1433,7 @@
   },
   "promobanner": {
     "copy_referral_link": "Copy Referral Link",
-    "help_grow_community": "Help grow our community! Get 5 friends to join and you'll instantly receive your special Ambassador badge!",
+    "help_grow_community": "Help grow the community! Get 5 friends to join and you'll instantly receive your special Ambassador badge!",
     "link_copied": "Link Copied!",
     "unlock_ambassador": "Unlock the Ambassador Badge"
   },
@@ -1437,7 +1441,7 @@
     "error_title": "Something went wrong",
     "explore_all": "Explore All",
     "no_results": "No results found",
-    "no_results_desc": "We couldn't find any people or posts matching your search.",
+    "no_results_desc": "I couldn't find any people or posts matching your search.",
     "search": "Search",
     "searching": "Searching...",
     "updating": "Updating...",
@@ -1468,5 +1472,48 @@
     "share_galleries_desc": "Curate albums for the community.",
     "subtitle": "Account created successfully. You are ready to level up your VRChat photography journey!",
     "title_welcome": "Welcome to"
+  },
+  "aboutpage": {
+    "title": "About GalleVR",
+    "subtitle": "Free, unlimited, and open source. Built with 💜 for the VRChat community.",
+    "story_title": "My Story",
+    "story_p1": "I made GalleVR because it was inconvenient to find and share my photos. The file explorer would stop responding, and I wanted a home for my photos that was private, but easy to share. GalleVR automatically tags your photos with the world and the players in it so you can find any photo with ease.",
+    "story_p2": "So I built a place where you can just put everything. Instead of digging through your folders, you get a clean gallery of your memories, and a feed with the photos your friends are sharing. It's unlimited, free storage that's built with VR, and the people in it, in mind.",
+    "features_title": "It does more than just that, though.",
+    "features": {
+      "autotagging": {
+        "title": "Trace your steps",
+        "desc": "I wanted to remember the journey, so the app automatically tracks the worlds for every shot. You'll never lose that photo in Amber Glade, or any world, again."
+      },
+      "storage": {
+        "title": "A project you can trust",
+        "desc": "Most importantly, I wanted to own my data. You own your photos. GalleVR is open source, and relies on no-one for external storage. I believe your memories shouldn't be a product for anyone else."
+      },
+      "feed": {
+        "title": "A place to put everything",
+        "desc": "Instead of digging through your folders, you get a clean gallery of your memories, and a feed with the photos your friends are sharing."
+      },
+      "alerts": {
+        "title": "Find your friends (and yourself)",
+        "desc": "I was tired of missing the photos that other people took, so I made a notification system that lets you know whenever someone posts a photo with you in it."
+      }
+    },
+    "faq_title": "Frequently Asked Questions",
+    "faq": {
+      "what_is_gallevr_q": "What is GalleVR?",
+      "what_is_gallevr_a": "GalleVR is an open-source, private-by-default photo gallery and social feed built for VRChat screenshots. It automatically parses local logs to tag your photos with worlds and players, making your VR photo library instantly searchable.",
+      "is_it_free_q": "Is GalleVR free to use?",
+      "is_it_free_a": "Yes! GalleVR is free and has unlimited storage for VRChat screenshots. I offer optional supporter subscriptions to help cover hosting and server costs.",
+      "how_sync_works_q": "How does photo syncing work?",
+      "how_sync_works_a": "You run the lightweight GalleVR companion app (built with Flutter for Windows, Linux, Meta Quest, and Pico). The companion app runs in the background, watches your VRChat screenshots folder, compresses images to WebP format, parses your local VRChat output logs (output_log_*.txt) to match photo timestamps with player/world entries, and uploads them securely to a self-hosted SeaweedFS storage cluster.",
+      "privacy_q": "Are my VRChat screenshots private?",
+      "privacy_q_desc": "Yes. Every photo you upload is private by default. You choose exactly what to make public, post to the community feed, or show on your profile.",
+      "login_q": "Do I need to enter my VRChat credentials?",
+      "login_q_desc": "No. If you sign up on the web or choose manual verification in the app, no credentials are required, and verification is done using your VRChat status."
+    },
+    "cta_title": "Ready to organize your VRChat memories?",
+    "cta_desc": "Set up GalleVR in just a few minutes. Sync your screenshots, find your friends, and start organizing your memories today.",
+    "video_title": "Watch GalleVR in Action",
+    "video_desc": "Take a quick walkthrough tour to see how automatically tagging, syncing, and organizing VRChat screenshots works."
   }
 }

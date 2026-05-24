@@ -241,9 +241,9 @@
       "already_friends_skip": "既にフレンドですか？スキップ",
       "alternative_method_using_a_code_in_your_": "{platformName} のステータスにコードを入力する代替の認証方法です。",
       "automatic_verification": "自動認証",
-      "automatic_verification_uses_a_secure_loc": "自動認証は安全なローカルログインプロセスを使用します。{platformName} の認証情報が当社のサーバーに送信されることはありません。アプリの指示に従ってセットアップを開始してください。",
+      "automatic_verification_uses_a_secure_loc": "自動認証は安全なローカルログインプロセスを使用します。{platformName} の認証情報がGalleVRのサーバーに送信されることはありません。アプリの指示に従ってセットアップを開始してください。",
       "back_to_options": "オプションに戻る",
-      "link_your_vrchat_account_to_keep_your_ph": "{platformName} アカウントを連携して、写真をプライベートで安全に保ちます。認証情報は安全であり、当社のサーバーには保存されません。",
+      "link_your_vrchat_account_to_keep_your_ph": "{platformName} アカウントを連携して、写真をプライベートで安全に保ちます。認証情報は安全であり、GalleVRのサーバーには保存されません。",
       "manual_verification": "手動認証",
       "manual_verification_uses_a_unique_code_t": "手動認証では、{platformName} のステータスに設定する固有のコードを使用します。アプリがこの手順をご案内します。",
       "next_step": "次のステップ:",
@@ -333,7 +333,7 @@
       "no_impersonation": "なりすましの禁止:",
       "nsfw_policy": "R-18ポリシー:",
       "only_upload_photos_that_you_have_taken_o": "自分が撮影した写真、または共有する許可を得ている写真のみをアップロードしてください。",
-      "our_mission": "私たちのミッション",
+      "our_mission": "ミッション",
       "own_your_captures": "自身のキャプチャを使用すること:",
       "permanent_ban_from_gallevr_services": "{appName} サービスからの永久BAN(利用停止)。",
       "removal_of_the_offending_content": "違反コンテンツの削除。",
@@ -344,7 +344,7 @@
       "violations_of_these_guidelines_may_resul": "これらのガイドラインに違反した場合、以下のような結果を招く可能性があります:",
       "vrchat_tos_compliance": "{platformName} 利用規約の遵守:",
       "vrchats_terms_of_service": "{platformName} 利用規約",
-      "we_reserve_the_right_to_determine_what_c": "私たちは、何が違反にあたるかを判断し、それに応じて措置を講じる権利を留保します。",
+      "we_reserve_the_right_to_determine_what_c": "モデレーションチームは、何が違反にあたるかを判断し、それに応じて措置を講じる権利を留保します。",
       "while_artistic_nudity_or_suggestive_avat": "VRでは芸術的なヌードや性的なアバターが一般的ですが、良識をもって判断し、そのようなコンテンツは厳重にプライベートギャラリーのみに留めてください。",
       "you_are_responsible_for_the_content_you_": "アップロードするコンテンツについては、あなたが責任を負います。すべての写真は以下の条件を満たす必要があります:"
     },
@@ -1145,7 +1145,7 @@
           "name": "サポーター"
         }
       },
-      "to_keep_your_data_private_we_dont_use": "データをプライベートに保つため、私たちは使用していません:",
+      "to_keep_your_data_private_we_dont_use": "データをプライベートに保つため、外部のクラウドサービスは使用していません:",
       "unlock_exclusive_badges_8k_photo_uploads": "月額サブスクリプションで限定バッジや8K写真のアップロードなどをアンロックしましょう。",
       "venrey": "Venrey"
     },
@@ -1340,6 +1340,10 @@
     }
   },
   "pages": {
+    "about": {
+      "description": "GalleVRとは何か、なぜ作られたのか、そしてVRChatのスクリーンショットやバーチャルフォトグラフィをどのように整理、検索、共有するのかについて説明します。",
+      "title": "GalleVRについて"
+    },
     "credits": {
       "description": "{appName} の背後にいるクリエイター、開発者、テスターたちをご紹介します。",
       "title": "クレジット"
@@ -1468,5 +1472,48 @@
     "share_galleries_desc": "コミュニティ向けにアルバムを整理します。",
     "subtitle": "アカウントが正常に作成されました。VRChatでの写真撮影の旅をレベルアップする準備が整いました！",
     "title_welcome": "ようこそ"
+  },
+  "aboutpage": {
+    "title": "GalleVRについて",
+    "subtitle": "無料、無制限、そしてオープンソース。VRChatコミュニティのために💜を込めて作られました。",
+    "story_title": "私のストーリー",
+    "story_p1": "VRChatの写真を整理したり共有したりするのが不便だったため、GalleVRを作りました。Windowsのファイルエクスプローラーを開こうとすると応答しなくなることが多く、プライベートでありながら簡単に共有できる写真の「ホーム」が欲しかったのです。GalleVRは写真が撮影されたワールドやその場にいたプレイヤーを自動的にタグ付けするため、どんな写真でも簡単に見つけることができます。",
+    "story_p2": "そこで、すべてをまとめて置いておける場所を作りました。フォルダーを探し回る代わりに、思い出のクリーンなギャラリーと、フレンドが共有している写真のフィードが表示されます。VRと、そこにいる人々のことを考えて作られた、無料かつ無制限のストレージです。",
+    "features_title": "それだけではありません。",
+    "features": {
+      "autotagging": {
+        "title": "撮影場所をトラッキング",
+        "desc": "撮影した時の道のりを覚えておきたかったので、アプリがすべての写真のワールドを自動的に記録します。Amber Glade（アンバー・グレイド）でも他のどんなワールドでも、あの時の写真を見失うことはもうありません。"
+      },
+      "storage": {
+        "title": "信頼できるプロジェクト",
+        "desc": "最も重要視したのは、自分のデータを自分で管理することです。あなたの写真はあなたのものです。GalleVRはオープンソースであり、外部のクラウドストレージに依存していません。思い出は他人のための製品であるべきではないと信じています。"
+      },
+      "feed": {
+        "title": "すべてをまとめて置ける場所",
+        "desc": "フォルダーの山を探し回る代わりに、思い出が整理された綺麗なギャラリーと、フレンドが共有している写真のフィードが手に入ります。"
+      },
+      "alerts": {
+        "title": "自分とフレンドを見つける",
+        "desc": "他の人が撮ってくれた写真を見逃すのが嫌だったので、あなたが含まれる写真が投稿されたらすぐに通知が届くシステムを作りました。"
+      }
+    },
+    "faq_title": "よくある質問 (FAQ)",
+    "faq": {
+      "what_is_gallevr_q": "GalleVRとは何ですか？",
+      "what_is_gallevr_a": "GalleVRは、VRChatのスクリーンショット用に構築されたオープンソースでプライベート優先のフォトギャラリー＆ソーシャルフィードです。ローカルログを自動的に解析してワールド名やプレイヤーをタグ付けし、バーチャルフォトグラフィのライブラリを瞬時に検索可能にします。",
+      "is_it_free_q": "GalleVRは無料で使えますか？",
+      "is_it_free_a": "はい！GalleVRはVRChatのスクリーンショット用に無料かつ無制限のストレージを提供しています。ホスティング費用をサポートするためのオプションのサポータープランも用意されています。",
+      "how_sync_works_q": "写真の同期はどのように機能しますか？",
+      "how_sync_works_a": "軽量なGalleVRコンパニオンアプリ（Windows、Linux、Meta Quest、Pico向けにFlutterで構築）を実行します。アプリはバックグラウンドで動作し、VRChatのスクリーンショットフォルダーの監視、WebP形式への圧縮、ローカルログ（output_log_*.txt）の解析による撮影タイムスタンプとワールド/プレイヤー情報の照合、および自社運用のSeaweedFSストレージへの安全なアップロードを自動で行います。",
+      "privacy_q": "VRChatのスクリーンショットは非公開ですか？",
+      "privacy_q_desc": "はい。デフォルトでは、同期したすべての写真は非公開であり、あなただけに表示されます。コミュニティフィードに共有したり、公開プロフィールに掲載したりするものは、ご自身で自由にコントロールできます。",
+      "login_q": "VRChatのログイン情報を入力する必要がありますか？",
+      "login_q_desc": "いいえ。ウェブサイトで登録する場合、またはアプリで手動認証を選択する場合は、ログイン情報は不要です。VRChatのステータスを利用して認証が行われます。"
+    },
+    "cta_title": "VRChatの思い出を整理する準備はできましたか？",
+    "cta_desc": "わずか数分でGalleVRをセットアップできます。スクリーンショットを同期し、フレンドを見つけ、今すぐバーチャルフォトグラフィのポートフォリオを作成しましょう。",
+    "video_title": "紹介ビデオ",
+    "video_desc": "スクリーンショットの自動タグ付け、同期、整理機能の実際の動作を動画でご確認いただけます。"
   }
 }
