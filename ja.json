@@ -207,6 +207,7 @@
     "show_less": "一部を表示",
     "show_more": "もっと見る",
     "start": "開始",
+    "stats": "統計",
     "status": "ステータス",
     "support": "サポート",
     "system": "システム",
@@ -1410,6 +1411,29 @@
     "success": {
       "description": "{appName} へのご支援ありがとうございます！",
       "title": "ありがとうございます!"
+    },
+    "stats": {
+      "description": "GalleVRコミュニティの成長とアクティビティを記録します。",
+      "title": "統計",
+      "loading": "統計を読み込み中...",
+      "total_users": "総認証ユーザー数",
+      "total_photos": "総写真枚数",
+      "total_posts": "総フィード投稿数",
+      "daily_avg_uploads": "1日平均アップロード数",
+      "daily_avg_signups": "1日平均新規登録数",
+      "daily_avg_posts": "1日平均投稿数",
+      "photo_to_post_ratio": "写真と投稿の比率",
+      "cumulative": "累積の成長",
+      "daily": "日別のアクティビティ",
+      "timeframe": "期間",
+      "days_30": "過去30日間",
+      "days_90": "過去90日間",
+      "all_time": "全期間",
+      "user_registrations": "ユーザー登録数",
+      "photo_uploads": "写真アップロード数",
+      "feed_posts": "フィード投稿",
+      "growth_over_time": "GalleVRの成長推移",
+      "error_loading": "統計の読み込みに失敗しました。後ほどもう一度お試しください。"
     },
     "support": {
       "description": "{appName} の開発をご支援ください。コミュニティのために機能の維持やサーバー運営を支えます。",

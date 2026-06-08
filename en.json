@@ -207,6 +207,7 @@
     "show_less": "Show less",
     "show_more": "Show more",
     "start": "Start",
+    "stats": "Statistics",
     "status": "Status",
     "support": "Support",
     "system": "System",
@@ -1410,6 +1411,29 @@
     "success": {
       "description": "Thank you for supporting {appName}!",
       "title": "Thank You!"
+    },
+    "stats": {
+      "description": "Track the growth and activity of the GalleVR community.",
+      "title": "Statistics",
+      "loading": "Loading statistics...",
+      "total_users": "Total Verified Users",
+      "total_photos": "Total Photos",
+      "total_posts": "Total Feed Posts",
+      "daily_avg_uploads": "Daily Avg Uploads",
+      "daily_avg_signups": "Daily Avg Signups",
+      "daily_avg_posts": "Daily Avg Posts",
+      "photo_to_post_ratio": "Photo to Post Ratio",
+      "cumulative": "Cumulative Growth",
+      "daily": "Daily Activity",
+      "timeframe": "Timeframe",
+      "days_30": "Last 30 Days",
+      "days_90": "Last 90 Days",
+      "all_time": "All Time",
+      "user_registrations": "User Registrations",
+      "photo_uploads": "Photo Uploads",
+      "feed_posts": "Feed Posts",
+      "growth_over_time": "GalleVR Growth Over Time",
+      "error_loading": "Failed to load statistics. Please try again later."
     },
     "support": {
       "description": "Support the development of {appName} to keep it free, unlimited, and open source.",
