@@ -580,7 +580,9 @@
       "view_all": "すべて見る",
       "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "他の人があなたを撮影した写真を公開すると、ここに表示されます",
       "your_favorites": "あなたのお気に入り",
-      "your_gallery": "あなたのギャラリー"
+      "your_gallery": "あなたのギャラリー",
+      "gallevr_discord": "GalleVR Discord",
+      "discord_desc": "コミュニティに参加して、フィードバックの共有や最新情報を入手しましょう。"
     },
     "imageeditor": {
       "adjustments": "調整",

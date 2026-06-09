@@ -580,7 +580,9 @@
       "view_all": "View All",
       "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "When others take photos that include you and make them public, they'll show up here",
       "your_favorites": "Your Favorites",
-      "your_gallery": "Your Gallery"
+      "your_gallery": "Your Gallery",
+      "gallevr_discord": "GalleVR Discord",
+      "discord_desc": "Join the community, share feedback, and get the latest updates."
     },
     "imageeditor": {
       "adjustments": "Adjustments",
