@@ -24,7 +24,14 @@
     "verification_error": "認証の開始中に問題が発生しました。もう一度お試しください。",
     "verify_identity": "本人確認",
     "waiting_for_status": "ステータス更新を待機中...",
-    "yes_sign_in": "はい、サインインします"
+    "yes_sign_in": "はい、サインインします",
+    "which_platform": "どのプラットフォームでプレイしていますか？",
+    "enter_username_resonite": "Resoniteの表示名を入力してください",
+    "search_error_resonite": "その名前のResoniteアカウントが見つかりませんでした。綴りを確認して再試行してください。",
+    "account_linked": "アカウントが連携されました！",
+    "accounts_now_linked": "アカウントが連携されました。",
+    "send_message_instruction_resonite": "アカウントを認証するには、以下のコードを含んだメッセージをResonite内のGalleVRボットに送信してください。",
+    "waiting_for_message_resonite": "メッセージを待機中..."
   },
   "badges": {
     "admin": {
@@ -63,6 +70,10 @@
       "description": "{appName} のオーナー",
       "name": "オーナー"
     },
+    "resonite_user": {
+      "description": "{appName}に登録しているResoniteプレイヤー",
+      "name": "Resoniteユーザー"
+    },
     "staff": {
       "description": "{appName} スタッフメンバー",
       "name": "スタッフ"
@@ -92,6 +103,7 @@
     "authentication_failed_please_try_again": "認証に失敗しました。もう一度お試しください。",
     "back": "戻る",
     "cancel": "キャンセル",
+    "create": "作成",
     "clear_all": "すべてクリア",
     "collapse": "折りたたむ",
     "comment_deleted": "コメントを削除しました",
@@ -163,6 +175,7 @@
     "highlight_post": "投稿をハイライト",
     "highlights": "ハイライト",
     "home": "ホーム",
+    "inbox": "受信トレイ",
     "i_have_read_and_agree_to_the_terms_of_se": "利用規約を読み、同意します",
     "if_you_decline_the_terms_of_service_you_": "利用規約を拒否すると、ログアウトされアプリケーションを使用できなくなります。本当に拒否しますか？",
     "link_copied_to_clipboard": "リンクをクリップボードにコピーしました！",
@@ -184,6 +197,7 @@
     "photo_removed_from_gallery": "写真をギャラリーから削除しました",
     "photo_shared_to_feed": "フィードに写真を共有しました！",
     "photos": "写真",
+    "photos_count": "{count}枚の写真",
     "please_log_in_to_favorite_photos": "写真をお気に入りに追加するにはログインしてください",
     "please_login_to_favorite_images": "写真をお気に入りに追加するにはログインしてください",
     "post_deleted": "投稿を削除しました。",
@@ -195,6 +209,7 @@
     "profile_link_copied": "プロフィールリンクをコピーしました！",
     "redirecting": "リダイレクト中...",
     "refresh": "更新",
+    "referred": "紹介者数",
     "remove_from_favorites": "お気に入りから削除",
     "removed_from_favorites": "お気に入りから削除しました",
     "report": "通報",
@@ -207,6 +222,7 @@
     "show_less": "一部を表示",
     "show_more": "もっと見る",
     "start": "開始",
+    "stats": "統計",
     "status": "ステータス",
     "support": "サポート",
     "system": "システム",
@@ -228,7 +244,29 @@
     "you_must_accept_the_terms_of_service_to_": "このアプリケーションを使用するには、利用規約に同意する必要があります。ログアウトしました。",
     "you_must_be_logged_in_to_favorite_photos": "お気に入りに追加するにはログインが必要です",
     "you_must_be_logged_in_to_highlight_posts": "投稿をハイライトするにはログインする必要があります。",
-    "your": "あなたの"
+    "your": "あなたの",
+    "share_gallery": "ギャラリーを共有",
+    "view_only": "閲覧権限",
+    "can_edit": "編集権限",
+    "collaborators": "コラボレーター",
+    "remove_collaborator": "コラボレーターを削除",
+    "leave_gallery": "ギャラリーから退室",
+    "remove_from_my_galleries": "マイギャラリーから削除",
+    "link_access": "リンクのアクセス権",
+    "copy_link": "リンクをコピー",
+    "share_to_recent_dms": "最近のDMに共有",
+    "no_recent_dms": "最近のDMはありません",
+    "collaborator_removed": "コラボレーターを削除しました",
+    "failed_to_remove_collaborator": "コラボレーターの削除に失敗しました",
+    "left_gallery": "ギャラリーから正常に退室しました",
+    "failed_to_leave_gallery": "ギャラリーからの退室に失敗しました",
+    "shared": "共有中",
+    "message_sent": "メッセージを送信しました！",
+    "failed_to_send_message": "メッセージの送信に失敗しました",
+    "transfer_ownership": "オーナーシップを譲渡",
+    "transfer_ownership_confirm": "このギャラリーのオーナーシップを {name} に譲渡してもよろしいですか？あなたはエディターになります。",
+    "transfer_ownership_success": "オーナーシップを正常に譲渡しました！",
+    "transfer_ownership_failed": "オーナーシップの譲渡に失敗しました"
   },
   "components": {
     "accounttab": {
@@ -240,6 +278,14 @@
       "account_verification": "アカウント認証",
       "after_verification_in_the_app_press_the_": "アプリ内での認証後、下の「続行」ボタンを押してください。",
       "already_friends_skip": "既にフレンドですか？スキップ",
+      "primary_platform": "どのプラットフォームでプレイしていますか？",
+      "vrchat_desc": "VRChatの表示名を使用して開始",
+      "resonite_desc": "Resoniteの表示名を使用して開始",
+      "find_resonite_account": "Resoniteアカウントを検索",
+      "enter_resonite_display_name": "Resoniteの表示名を入力してください",
+      "resonite_search_error": "このResoniteユーザーが見つかりませんでした。綴りを確認するか、表示名をお試しください。",
+      "vrchat_search_error": "このVRChatユーザーが見つかりませんでした。綴りを確認するか、正確なVRChatユーザーIDを使用してください。",
+      "verification_start_error": "認証の開始中に問題が発生しました。もう一度お試しください。",
       "alternative_method_using_a_code_in_your_": "{platformName} のステータスにコードを入力する代替の認証方法です。",
       "automatic_verification": "自動認証",
       "automatic_verification_uses_a_secure_loc": "自動認証は安全なローカルログインプロセスを使用します。{platformName} の認証情報がGalleVRのサーバーに送信されることはありません。アプリの指示に従ってセットアップを開始してください。",
@@ -252,7 +298,27 @@
       "use_this_method_if_you_prefer_not_to_log": "{platformName} をローカルでログインしたくない場合や、自動認証が機能しない場合は、この方法を使用してください。",
       "when_to_use": "使用するケース:",
       "your_login_information_never_leaves_your": "ログイン情報がデバイスの外部に送信されることはありません。",
-      "your_privacy_is_key": "プライバシーについて:"
+      "your_privacy_is_key": "プライバシーについて:",
+      "who_are_you": "あなたのアカウントはどちらですか？",
+      "enter_user_id_instruction": "VRChatの表示名、ユーザーID (usr_...)、またはResoniteのユーザーID (U-...) を入力してください。",
+      "is_this_you": "あなたですか？",
+      "yep_continue": "はい、続行します！",
+      "final_validation_steps": "最終確認手順",
+      "waiting_for_you": "待機中...",
+      "accept_friend_request": "フレンド申請の承認",
+      "open_resonite_friend_request": "Resoniteを開き、ボットからのコンタクト申請を承認してください。",
+      "open_vrchat_friend_request": "VRChatを開き、以下からのフレンド申請を承認してください: ",
+      "check_status": "ステータスを確認",
+      "send_verification_code": "確認コードの送信",
+      "change_status_description": "ステータスの変更",
+      "complete_step_1_first": "このステップを実行するには、まずステップ1を完了してください。",
+      "send_code_message_resonite": "Resonite内でボットにこの8桁のコードをメッセージとして送信してください:",
+      "paste_code_vrchat_status": "VRChatのステータステキストにこの8桁のコードを貼り付けてください:",
+      "waiting_resonite_message": "ボットへの確認メッセージの送信を待機しています...",
+      "live_monitoring_enabled": "自動監視が有効です。ステータスが一致し次第、自動的に処理が進みます！",
+      "waiting_friend_request": "フレンド申請の承認を待機しています...",
+      "welcome_board": "ようこそ！",
+      "successfully_verified": "認証に成功しました。ログインしています..."
     },
     "adminbadgemodal": {
       "assign": "割り当て",
@@ -307,7 +373,9 @@
       "now": "たった今",
       "second": "秒",
       "seconds": "秒",
-      "your_profile": "あなたのプロフィール"
+      "your_profile": "あなたのプロフィール",
+      "reply": "返信",
+      "replying_to": "{name} に返信中"
     },
     "communityguidelinesheader": {
       "help_us_keep_gallevr_a_safe_and_welcomin": "{appName} を安全で歓迎される場所にするためにご協力ください"
@@ -364,6 +432,29 @@
       "share_moments": "思い出を共有",
       "the_final_step_is_to_connect_the_app_to_": "最後のステップは、アプリをウェブサイトに接続することです。{appName} へようこそ！",
       "youre_all_set": "準備完了！"
+    },
+    "createfeedpostmodal": {
+      "add": "追加",
+      "an_error_occurred": "エラーが発生しました。",
+      "choose_photo_tooltip": "写真を選択",
+      "choose_photos_placeholder": "クリックしてギャラリーから写真を選択（最大4枚）",
+      "failed_to_create_post": "投稿の作成に失敗しました。",
+      "gallery": "ギャラリー",
+      "loading_galleries": "ギャラリーを読み込み中...",
+      "new_post": "新規投稿",
+      "no_public_galleries_desc": "公開ギャラリーが見つかりません。ギャラリーを公開にしてフィードに共有しましょう。",
+      "optional_post_title": "任意の投稿タイトル...",
+      "photo": "写真",
+      "post": "投稿",
+      "posted_to_feed": "フィードに投稿しました！",
+      "public": "公開",
+      "sharing_gallery": "「{name}」を共有中",
+      "tags_placeholder": "タグ（カンマ区切り）",
+      "untitled": "無題",
+      "whats_happening": "今どうしてる？",
+      "you": "あなた",
+      "show_world_data": "ワールド情報を表示",
+      "show_player_tags": "プレイヤーのタグを表示"
     },
     "creditspage": {
       "android": "Android",
@@ -443,9 +534,26 @@
       "feed": "フィード"
     },
     "feedpage": {
+      "empty_following_desc": "ユーザーをフォローして、フィードに投稿を表示させましょう。",
+      "empty_following_title": "ここにはまだ何もありません！",
+      "empty_furality_desc": "Furalityワールドの写真を最初にフィードで共有しましょう！",
+      "empty_furality_title": "Furalityの投稿はまだありません。",
+      "empty_highlights_desc": "サポーターが投稿をハイライトするとここに表示されます！",
+      "empty_highlights_title": "ハイライトされた投稿はまだありません。",
+      "empty_new_desc": "最初の写真をフィードに投稿してみましょう！",
+      "empty_new_title": "新しい投稿はありません。",
+      "empty_trending_desc": "後でまたチェックして、トレンドの投稿を見てみましょう。",
+      "empty_trending_title": "現在トレンド of 投稿はありません。",
       "failed_to_fetch_feed": "フィードの取得に失敗しました",
+      "gallery": "ギャラリー",
       "loading_feed": "フィードを読み込み中...",
+      "new_post": "新規投稿",
+      "photo": "写真",
       "post_not_found_or_you_do_not_have_access": "投稿が見つからないか、アクセス権がありません。",
+      "share_gallery": "ギャラリーを共有",
+      "share_photo": "写真を共有",
+      "scroll_to_top": "トップに戻る",
+      "whats_happening": "今どうしてる？",
       "youve_reached_the_end_of_the_feed": "フィードの最後まで到達しました。"
     },
     "feedpostcard": {
@@ -499,6 +607,7 @@
         "public": "Public のみ"
       },
       "preview_gallery": "ギャラリーをプレビュー",
+      "not": "除外:",
       "search_players": "プレイヤーを検索...",
       "search_worlds": "ワールドを検索...",
       "select_access_type": "アクセスタイプを選択",
@@ -538,6 +647,7 @@
     },
     "galleryviewerheader": {
       "all_dates": "すべての日付",
+      "default_sort": "デフォルト順",
       "filters": "フィルター:",
       "from_date": "開始: {date}",
       "gallery_link_copied": "ギャラリーのリンクをコピーしました！",
@@ -574,12 +684,20 @@
       "community_feed": "コミュニティフィード",
       "no_photos_of_you_by_others_found": "他の人が撮影したあなたとの写真はありません",
       "photos_of_you_by_others": "他の人が撮ったあなたとの写真",
+      "photos_you_are_in": "あなたが写っている写真",
+      "photos_you_might_be_in": "あなたが写っている可能性のある写真",
+      "no_photos_you_are_in_found": "写っている写真が見つかりません",
+      "no_photos_you_might_be_in_found": "写っている可能性のある写真はありません",
+      "when_others_tag_you_they_will_show_up_here": "他の人があなたを写真にタグ付けすると、ここに表示されます。",
+      "when_you_are_in_the_world_but_not_tagged": "あなたが同じワールドインスタンスにいた時に撮影された写真（タグなし）です。",
       "quickly_access_all_your_most_loved_momen": "お気に入りの瞬間にすばやくアクセス。",
       "see_whats_new_in_the_gallevr_community": "{appName} コミュニティの最新情報をチェック。",
       "view_all": "すべて見る",
       "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "他の人があなたを撮影した写真を公開すると、ここに表示されます",
       "your_favorites": "あなたのお気に入り",
-      "your_gallery": "あなたのギャラリー"
+      "your_gallery": "あなたのギャラリー",
+      "gallevr_discord": "GalleVR Discord",
+      "discord_desc": "コミュニティに参加して、フィードバックの共有や最新情報を入手しましょう。"
     },
     "imageeditor": {
       "adjustments": "調整",
@@ -638,12 +756,15 @@
       "failed_to_save_tag": "タグの保存に失敗しました",
       "filter_people_in_photo": "写真に写っている人をフィルター...",
       "finish_tagging": "タグ付けを終了",
+      "finish_stickers": "ステッカー完了",
       "no_matches_found": "一致する結果が見つかりません",
       "no_people_detected_in_this_images_metada": "この画像のメタデータからは人物が検出されませんでした。",
       "remove_tag": "タグを削除",
       "tag_people": "人をタグ付け",
       "tag_this_person": "この人をタグ付け",
-      "uploading_edited_photo": "編集した写真をアップロード中..."
+      "uploading_edited_photo": "編集した写真をアップロード中...",
+      "flip_horizontal": "左右反転",
+      "flipping_image": "画像を反転中..."
     },
     "imagevieweractions": {
       "are_you_sure_you_want_to_delete_this_photo": "この写真を削除してもよろしいですか？",
@@ -670,7 +791,23 @@
       "report_photo": "写真を通報",
       "upload_edited_version": "編集バージョンをアップロード",
       "view_comments": "コメントを見る",
-      "view_players": "プレイヤーを見る"
+      "view_players": "プレイヤーを見る",
+      "sticker_mode": "ステッカーモード"
+    },
+    "stickers": {
+      "title": "ステッカー",
+      "saved_tab": "保存済み",
+      "my_stickers_tab": "マイ",
+      "upload_tab": "アップロード",
+      "upload_limit": "スーパーサポーター限定 (最大5MB)",
+      "upload_warning": "NSFWや不適切なステッカーのアップロードは固く禁止されています。アップロードされたステッカーは、GalleVRモデレーションチームの承認を得るまで他のユーザーには表示されず、保存や使用もできません。",
+      "sticker_details": "ステッカーの詳細",
+      "custom_sticker": "カスタムステッカー",
+      "unknown_uploader": "不明",
+      "save_sticker_btn": "ステッカーを保存",
+      "sticker_saved": "ステッカーを保存しました！",
+      "failed_to_save": "ステッカーの保存に失敗しました",
+      "click_to_view_details": "クリックして詳細を表示"
     },
     "landingcta": {
       "download_app": "アプリをダウンロード",
@@ -829,12 +966,27 @@
     "photogallery": {
       "failed_to_fetch_photos_with_user": "ユーザーとの写真の取得に失敗しました"
     },
+    "photopickermodal": {
+      "clear_search": "検索をクリア",
+      "filter_placeholder": "ワールド、プレイヤー、または日付でフィルター...",
+      "loading_photos": "写真を読み込み中...",
+      "no_photos_match": "フィルターに一致する写真はありません",
+      "pick_one_photo": "ギャラリーから写真を1枚選択",
+      "pick_up_to_5_photos": "ギャラリーから写真を最大5枚選択",
+      "photos_selected": "{count}枚の写真を選択中",
+      "select": "選択",
+      "select_a_photo": "写真を選択",
+      "select_photos": "写真を選択",
+      "sort_newest_first": "新しい順に並び替え",
+      "sort_oldest_first": "古い順に並び替え"
+    },
     "photoselectionmodal": {
       "add_selected": "選択した項目を追加",
       "clear_search": "検索をクリア",
       "filter_by_world_player_or_date": "ワールド、プレイヤー、日付でフィルター",
       "loading_your_library": "ライブラリを読み込み中...",
       "no_photos_match_your_filter": "フィルターに一致する写真はありません",
+      "photos_selected": "{count}枚の写真を選択中",
       "select_all_visible": "表示中をすべて選択",
       "select_photos_to_add_to_this_gallery": "このギャラリーに追加する写真を選択してください",
       "try_adjusting_your_search_terms_or_filte": "お探しのものを見つけるために、検索語句やフィルターを調整してみてください。"
@@ -872,7 +1024,15 @@
       "run_installer": "インストーラーを実行",
       "sideload_apk": "APKをサイドロード",
       "use_sidequest_or_adb_to_install_the_down": "SidequestまたはADBを使用してダウンロードしたファイルをインストールします",
-      "view_on_meta_store": "Metaストアで見る"
+      "view_on_meta_store": "Metaストアで見る",
+      "resonite_integration": "Resonite 連携",
+      "resonite_desc": "Resonite で {appName} を使用する場合は、写真のメタデータ追跡を完全にシームレスに行うために、以下がインストールされていることを確認してください。",
+      "resonite_modloader": "ResoniteModLoader",
+      "resonite_modloader_desc": "（Modの実行に必要）",
+      "resonite_ss_ext": "ResoniteScreenshotExtensions",
+      "resonite_ss_ext_desc": "（スクリーンショットのメタデータを保存）",
+      "resonite_fix_metadata": "FixPhotoMetadata",
+      "resonite_fix_metadata_desc": "（{appName}用にメタデータ形式を調整）"
     },
     "privacytab": {
       "control_who_can_see_your_content": "コンテンツを閲覧できるユーザーを管理します",
@@ -907,7 +1067,9 @@
       "total_favorites": "合計お気に入り数",
       "views": "表示回数",
       "vrchat_join_date": "{platformName} 参加日",
-      "vrchat_profile": "{platformName} プロフィール"
+      "vrchat_profile": "{platformName} プロフィール",
+      "block_user": "ユーザーをブロック",
+      "unblock_user": "ブロック解除"
     },
     "profilepoststab": {
       "loading_posts": "投稿を読み込み中...",
@@ -964,7 +1126,9 @@
       "submit": "送信",
       "submit_report": "通報を送信",
       "unknown_user": "不明なユーザー",
-      "your_report_will_be_sent_to_our_moderati": "通報はモデレーションチームに送信され、審査されます。すべての通報を真摯に受け止め、可能な限り早く調査いたします。"
+      "your_report_will_be_sent_to_our_moderati": "通報はモデレーションチームに送信され、審査されます。すべての通報を真摯に受け止め、可能な限り早く調査いたします。",
+      "report_message": "メッセージを通報",
+      "reporting_message_by": "メッセージを通報中:"
     },
     "searchbar": {
       "no_recent_searches": "最近の検索はありません",
@@ -993,6 +1157,7 @@
       "users": "ユーザー"
     },
     "settingspage": {
+      "account": "アカウント",
       "appearance": "外観",
       "date_auto": "自動 (システム)",
       "date_format": "日付フォーマット",
@@ -1000,18 +1165,24 @@
       "date_gb": "ヨーロッパ方式",
       "date_jp": "日本方式",
       "date_us": "アメリカ方式",
+      "dm_privacy_description": "ダイレクトメッセージの送信を許可する範囲を設定します。",
       "disables_page_transitions_and_complex_an": "ページ遷移や複雑なアニメーションを無効にします。静的なインターフェースを好む場合や、動きに敏感な場合は有効にしてください。",
       "dyslexic_font": "OpenDyslexicフォント",
       "dyslexic_font_description": "デフォルトのフォントをOpenDyslexicに置き換えます。これはディスレクシア（読字障害）のある読者の読みやすさを向上させるために設計された書体です。",
       "language_en": "English",
+      "language_es": "スペイン語",
       "language_ja": "日本語",
       "manage_your_preferences_and_account": "設定とアカウントを管理します",
       "reduced_motion": "視差効果を減らす",
       "select_format": "フォーマットを選択...",
       "select_language": "言語を選択...",
       "settings": "設定",
+      "sign_out": "サインアウト",
+      "sign_out_description": "このブラウザからサインアウトします。写真を管理するには再度サインインする必要があります。",
       "ui_language": "UI言語",
-      "ui_language_description": "アプリケーションインターフェースの優先言語を選択します。"
+      "ui_language_description": "アプリケーションインターフェースの優先言語を選択します。",
+      "download_png": "PNGとしてダウンロード",
+      "download_png_description": "ダウンロード時、画像をWebPからPNGへローカルで変換します。"
     },
     "setupfooter": {
       "back_to_home": "ホームに戻る",
@@ -1034,7 +1205,9 @@
       "failed_to_share_post": "投稿の共有に失敗しました。",
       "landscape_avatar_event": "風景、アバター、イベント",
       "photo_shared_to_the_feed": "写真をフィードに共有しました！",
-      "share_post": "投稿を共有"
+      "share_post": "投稿を共有",
+      "show_world_data": "ワールド情報を表示",
+      "show_player_tags": "プレイヤーのタグを表示"
     },
     "sidebar": {
       "collapse": "折りたたむ",
@@ -1173,7 +1346,10 @@
       "link_copied_to_clipboard": "リンクをクリップボードにコピーしました！",
       "loading": "読み込み中...",
       "not_authenticated": "認証トークンが見つかりません",
-      "photo_deleted_successfully": "写真を正常に削除しました"
+      "photo_deleted_successfully": "写真を正常に削除しました",
+      "converting_to_png": "画像をPNGに変換中...",
+      "png_download_ready": "PNGへの変換が完了しました！ダウンロードを開始します...",
+      "failed_to_convert_to_png": "PNGへの変換に失敗しました。元の画像をダウンロードします。"
     },
     "usenotifications": {
       "browser_notifications_are_blocked_please": "ブラウザ通知がブロックされています。ブラウザの設定で有効にしてください。",
@@ -1229,7 +1405,13 @@
       "not_following_anyone_yet": "まだ誰もフォローしていません",
       "profile_not_found": "プロフィールが見つかりません",
       "profile_updated_successfully": "プロフィールを正常に更新しました",
-      "unfollow_user": "ユーザーのフォローを解除"
+      "unfollow_user": "ユーザーのフォローを解除",
+      "profile_unavailable": "プロフィールは利用できません",
+      "profile_unavailable_desc": "このプロフィールは利用できません。",
+      "user_blocked_successfully": "ユーザーをブロックしました",
+      "user_unblocked_successfully": "ユーザーのブロックを解除しました",
+      "you_blocked_description": "相手の写真や投稿が表示されなくなり、メッセージの送受信もできなくなります。",
+      "you_blocked_this_user": "このユーザーをブロックしています"
     },
     "useuserprofile": {
       "failed_to_load_followers": "フォロワーの読み込みに失敗しました",
@@ -1331,6 +1513,14 @@
       "message": "<strong>{actorUsername}</strong> さんがあなたを投稿にタグ付けしました: \"{postTitle}\"",
       "title": "投稿にタグ付けされました"
     },
+    "NEW_MESSAGE": {
+      "message": "<strong>{senderUsername}</strong>: {preview}",
+      "title": "新着メッセージ"
+    },
+    "NEW_MESSAGE_REQUEST": {
+      "message": "<strong>{senderUsername}</strong> さんがメッセージを送りたがっています。",
+      "title": "新しいメッセージリクエスト"
+    },
     "REFERRAL_SUCCESS": {
       "message": "<strong>{actorUsername}</strong> さんがあなたのリンクから参加しました！",
       "title": "招待成功"
@@ -1338,6 +1528,10 @@
     "SINGLE_ACTOR_LIKES": {
       "message": "<strong>{actorUsername}</strong> さんがあなたの投稿 <strong>{count}</strong> 件にいいねしました。",
       "title": "新着いいね"
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "インボックスに新着システムメッセージがあります",
+      "title": "システムメッセージ"
     }
   },
   "pages": {
@@ -1411,6 +1605,29 @@
       "description": "{appName} へのご支援ありがとうございます！",
       "title": "ありがとうございます!"
     },
+    "stats": {
+      "description": "GalleVRコミュニティの成長とアクティビティを記録します。",
+      "title": "統計",
+      "loading": "統計を読み込み中...",
+      "total_users": "総認証ユーザー数",
+      "total_photos": "総写真枚数",
+      "total_posts": "総フィード投稿数",
+      "daily_avg_uploads": "1日平均アップロード数",
+      "daily_avg_signups": "1日平均新規登録数",
+      "daily_avg_posts": "1日平均投稿数",
+      "photo_to_post_ratio": "写真と投稿の比率",
+      "cumulative": "累積の成長",
+      "daily": "日別のアクティビティ",
+      "timeframe": "期間",
+      "days_30": "過去30日間",
+      "days_90": "過去90日間",
+      "all_time": "全期間",
+      "user_registrations": "ユーザー登録数",
+      "photo_uploads": "写真アップロード数",
+      "feed_posts": "フィード投稿",
+      "growth_over_time": "GalleVRの成長推移",
+      "error_loading": "統計の読み込みに失敗しました。後ほどもう一度お試しください。"
+    },
     "support": {
       "description": "{appName} の開発をご支援ください。コミュニティのために機能の維持やサーバー運営を支えます。",
       "title": "{appName} をサポート"
@@ -1450,7 +1667,9 @@
   },
   "sidebar": {
     "sign_out": "サインアウト",
-    "view_profile": "プロフィールを表示"
+    "view_profile": "プロフィールを表示",
+    "link_platform_account": "{platform} アカウントを連携",
+    "linked_to_platform": "{platform} に連携済み"
   },
   "welcomepage": {
     "auto_sync": "すべての写真を自動同期",
@@ -1516,5 +1735,88 @@
     "cta_desc": "わずか数分でGalleVRをセットアップできます。スクリーンショットを同期し、フレンドを見つけ、今すぐバーチャルフォトグラフィのポートフォリオを作成しましょう。",
     "video_title": "紹介ビデオ",
     "video_desc": "スクリーンショットの自動タグ付け、同期、整理機能の実際の動作を動画でご確認いただけます。"
+  },
+  "inbox": {
+    "title": "インボックス",
+    "read": "既読",
+    "sent": "送信済み",
+    "messages": "メッセージ",
+    "requests": "リクエスト",
+    "system": "システム",
+    "start_chat": "チャットを開始",
+    "close_chat": "チャットを閉じる",
+    "group_chat": "グループチャット",
+    "create_group": "グループチャットを作成",
+    "new_dm": "新しいDM",
+    "group_name": "グループ名",
+    "group_name_placeholder": "例: 写真同好会",
+    "invite_mutuals": "相互フォロワーを招待",
+    "invite_search_placeholder": "フォロワーを検索...",
+    "invite_limit_reached": "メンバーの上限（{limit}人）に達しました。",
+    "mutuals_only_error": "お互いにフォローしているユーザーのみ招待できます。",
+    "new_message_request": "新着メッセージリクエスト",
+    "new_message_request_desc": "{username} さんがメッセージを送信したがっています。",
+    "accept_request": "リクエストを承認",
+    "decline_request": "リクエストを拒否",
+    "decline_confirm": "このメッセージリクエストを拒否しますか？拒否すると、この会話からのメッセージを受け取れなくなります。",
+    "no_conversations": "会話がまだありません。",
+    "no_messages": "メッセージがありません。話しかけてみましょう！",
+    "no_requests": "保留中のメッセージリクエストはありません。",
+    "no_system_messages": "システムメッセージはありません。",
+    "mute_conversation": "会話をミュート",
+    "unmute_conversation": "会話のミュートを解除",
+    "delete_for_everyone": "全員に対して削除",
+    "edit_message": "メッセージを編集",
+    "save_edit": "保存",
+    "edited": "編集済み",
+    "deleted_message": "このメッセージは削除されました。",
+    "failed_to_start_conversation": "会話の開始に失敗しました",
+    "failed_to_create_group": "グループの作成に失敗しました",
+    "failed_to_send_message": "メッセージの送信に失敗しました",
+    "failed_to_send_photo": "写真の送信に失敗しました",
+    "failed_to_share_post": "投稿の共有に失敗しました",
+    "failed_to_edit_message": "メッセージの編集に失敗しました",
+    "failed_to_delete_message": "メッセージの削除に失敗しました",
+    "failed_to_accept_request": "リクエストの承認に失敗しました",
+    "failed_to_decline_request": "リクエストの拒否に失敗しました",
+    "failed_to_close_conversation": "会話の終了に失敗しました",
+    "failed_to_update_notification_settings": "通知設定の更新に失敗しました",
+    "sent_a_photo": "📷 写真を送信しました",
+    "sent_a_sticker": "ステッカーを送信しました",
+    "select_sticker_tooltip": "ステッカーを送信",
+    "failed_to_send_sticker": "ステッカーの送信に失敗しました",
+    "shared_a_post": "投稿を共有しました",
+    "type_message_placeholder": "メッセージを入力...",
+    "search_chats_placeholder": "会話を検索...",
+    "select_conversation_desc": "会話を選択するか、相互フォロワーと新しいメッセージを開始してください。",
+    "send": "送信",
+    "select_photo_tooltip": "ギャラリーから写真を選択",
+    "send_photo_embed": "写真を送信",
+    "privacy_settings": "DMプライバシー設定",
+    "dm_everyone": "全員（相互フォロー以外のDMはリクエストに送られます）",
+    "dm_followers": "相互フォローとフォロワーのみ",
+    "dm_nobody": "許可しない",
+    "read_receipts": "既読設定",
+    "read_receipts_desc": "相手にメッセージを読んだことを知らせるようにします。",
+    "disable_read_receipts": "既読表示を無効にする",
+    "system_message_notif": "インボックスに新着システムメッセージがあります",
+    "new_dm_notif": "{username} さんからの新しいメッセージ",
+    "new_dm_request_notif": "インボックスに新着メッセージリクエストがあります",
+    "system_sender_name": "システム",
+    "no_mutuals": "相互フォローしているフレンドが見つかりません。",
+    "typing_indicators": "タイピング表示",
+    "typing_indicators_desc": "タイピング中の状態を相手に表示し、相手のタイピング中の状態も表示するようにします。",
+    "age_verification_required": "18歳以上の年齢認証が必要です",
+    "age_verification_required_desc": "安全対策および運営体制の観点から、メッセージ機能の利用はVRChat公式のVRChat+年齢認証を完了したユーザーに制限されています。メッセージを利用するにはVRChat側で認証を完了させてください。",
+    "verify_now": "今すぐ認証する",
+    "inbox_verification_info": "ご自身が年齢認証済みであっても、VRChatで18歳以上の年齢認証を完了しているユーザーにのみメッセージを送信できます。未認証のユーザーはDMの送受信を行うことができません。",
+    "view_system_messages": "システムメッセージに戻る",
+    "reconnecting": "再接続中...",
+    "load_earlier": "以前のメッセージを読み込む",
+    "group_members": "グループメンバー",
+    "participants_count": "{count}人の参加者",
+    "and_more": "他{count}人",
+    "sticker_approved_msg": "嬉しいお知らせです！あなたのステッカー「{name}」が承認されました！",
+    "sticker_rejected_msg": "ステッカー「{name}」はモデレーター {moderator} によって非承認となりました。\n理由: {reason}"
   }
 }

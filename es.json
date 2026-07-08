@@ -1,0 +1,1822 @@
+{
+  "api": {
+    "status": {
+      "degraded": "Degradado",
+      "healthy": "Saludable",
+      "invalid": "No válido",
+      "unhealthy": "Inestable",
+      "valid": "Válido"
+    }
+  },
+  "authmodal": {
+    "change_status_instruction": "Cambia tu estado de VRChat al código de abajo para que el sistema sepa que realmente eres tú.",
+    "copied": "¡Copiado!",
+    "copy": "Copiar",
+    "enter_username": "Ingresa tu nombre de usuario de VRChat para continuar.",
+    "find_account": "Buscar cuenta",
+    "found_you": "¿Te encontramos?",
+    "not_me": "No soy yo",
+    "search_error": "No se pudo encontrar a este usuario de VRChat. Revisa la ortografía o usa su ID de usuario exacto de VRChat.",
+    "sign_in": "Entrar",
+    "signed_in_refreshing": "Sesión iniciada. Actualizando...",
+    "success": "¡Listo!",
+    "username_placeholder": "Nombre de usuario de VRChat",
+    "verification_error": "Algo salió mal al iniciar la verificación. Inténtalo de nuevo.",
+    "verify_identity": "Verificar identidad",
+    "waiting_for_status": "Esperando actualización de estado...",
+    "yes_sign_in": "Sí, iniciar sesión",
+    "which_platform": "¿En qué plataforma juegas?",
+    "enter_username_resonite": "Ingresa tu nombre de pantalla de Resonite",
+    "search_error_resonite": "No se encontró ninguna cuenta de Resonite con ese nombre. Revisa la ortografía e inténtalo de nuevo.",
+    "account_linked": "¡Cuenta vinculada!",
+    "accounts_now_linked": "Tus cuentas ahora están vinculadas.",
+    "send_message_instruction_resonite": "Envía un mensaje con el siguiente código al bot de GalleVR en Resonite para verificar tu cuenta.",
+    "waiting_for_message_resonite": "Esperando mensaje..."
+  },
+  "badges": {
+    "admin": {
+      "description": "Administrador de {appName}",
+      "name": "Admin"
+    },
+    "ambassador": {
+      "description": "Otorgado por correr la voz e invitar a nuevos amigos a la plataforma",
+      "name": "Embajador"
+    },
+    "beta_tester": {
+      "description": "Pionero y de los primeros en adoptar {appName}",
+      "name": "Pionero"
+    },
+    "donator": {
+      "description": "Donador único de {appName}",
+      "name": "Donador"
+    },
+    "early_supporter": {
+      "description": "Uno de los primeros colaboradores mensuales de {appName}",
+      "name": "Colaborador inicial"
+    },
+    "editor": {
+      "description": "Editor de {appName}",
+      "name": "Editor"
+    },
+    "furality_team": {
+      "description": "Miembro oficial del equipo de Furality",
+      "name": "Equipo Furality"
+    },
+    "mega_supporter": {
+      "description": "Un increíble colaborador de {appName}",
+      "name": "Mega Colaborador"
+    },
+    "owner": {
+      "description": "Creador de {appName}",
+      "name": "Creador"
+    },
+    "resonite_user": {
+      "description": "Jugador de Resonite en {appName}",
+      "name": "Usuario de Resonite"
+    },
+    "staff": {
+      "description": "Miembro del staff de {appName}",
+      "name": "Staff"
+    },
+    "super_supporter": {
+      "description": "Un generoso colaborador de {appName}",
+      "name": "Super Colaborador"
+    },
+    "supporter": {
+      "description": "Colaborador de {appName}",
+      "name": "Colaborador"
+    },
+    "verified": {
+      "description": "Creador verificado",
+      "name": "Verificado"
+    }
+  },
+  "common": {
+    "about": "Acerca de",
+    "accept": "Aceptar",
+    "add_photos": "Agregar fotos",
+    "add_to_favorites": "Agregar a favoritos",
+    "add_to_gallery": "Agregar a la galería",
+    "added_to_favorites": "Agregado a favoritos",
+    "all": "Todo",
+    "already_highlighted": "Ya destacado",
+    "authentication_failed_please_try_again": "Error al iniciar sesión. Inténtalo de nuevo.",
+    "back": "Volver",
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "clear_all": "Limpiar todo",
+    "collapse": "Contraer",
+    "comment_deleted": "Comentario eliminado",
+    "community": "Comunidad",
+    "could_not_delete_post": "No se pudo eliminar la publicación.",
+    "could_not_like_post": "No se pudo dar me gusta a la publicación.",
+    "create_gallery": "Crear galería",
+    "credits": "Créditos",
+    "date_format": "D MMM YYYY",
+    "date_time_format": "D [de] MMMM [de] YYYY, h:mm:ss a",
+    "decline": "Rechazar",
+    "delete": "Eliminar",
+    "delete_account": "Eliminar cuenta",
+    "delete_gallery": "Eliminar galería",
+    "delete_photo": "Eliminar foto",
+    "delete_post": "Eliminar post",
+    "download": "Descargar",
+    "download_installer": "Descargar instalador",
+    "dynamic": "Dinámica",
+    "edit_profile": "Editar perfil",
+    "edited_on_date": "Editado el {date}",
+    "edited_photo_uploaded": "¡Foto editada subida con éxito! Recargando...",
+    "edits_applied": "¡Cambios aplicados con éxito!",
+    "enable": "Activar",
+    "enable_browser_notifications": "Activar notificaciones",
+    "end": "Fin",
+    "error_adding_photos": "Ocurrió un error al agregar fotos",
+    "expand": "Expandir",
+    "failed_to_accept_terms_of_service": "Error al aceptar los Términos de servicio",
+    "failed_to_accept_tos": "Error al aceptar los Términos de servicio",
+    "failed_to_add_comment": "Error al agregar comentario",
+    "failed_to_add_photo": "Error al agregar foto",
+    "failed_to_add_photo_to_gallery": "Error al agregar foto a la galería",
+    "failed_to_copy_link": "Error al copiar enlace.",
+    "failed_to_delete_comment": "Error al eliminar comentario",
+    "failed_to_delete_post": "Error al eliminar publicación.",
+    "failed_to_fetch_galleries": "Error al obtener galerías",
+    "failed_to_highlight_post": "Error al destacar la publicación.",
+    "failed_to_load_comments": "Error al cargar comentarios",
+    "failed_to_load_galleries": "Error al cargar galerías",
+    "failed_to_load_gallery": "Error al cargar la galería",
+    "failed_to_load_gallery_photos": "Error al cargar las fotos de la galería",
+    "failed_to_load_image": "Error al cargar la imagen",
+    "failed_to_refresh_favorites": "Error al actualizar favoritos",
+    "failed_to_remove_photo": "Error al quitar foto",
+    "failed_to_remove_tag": "Error al quitar etiqueta",
+    "failed_to_save_tag": "Error al guardar etiqueta",
+    "failed_to_update_favorite": "Error al actualizar favorito",
+    "failed_to_update_favorite_status": "Error al actualizar estado del favorito",
+    "failed_to_update_gallery": "Error al actualizar galería",
+    "failed_to_update_like_status": "Error al actualizar estado del me gusta.",
+    "favorites": "Favoritos",
+    "favorites_refreshed": "Favoritos actualizados",
+    "feed": "Feed",
+    "furality": "Furality",
+    "file_too_large": "El archivo es demasiado grande. El tamaño máximo es 5MB.",
+    "follow": "Seguir",
+    "followers": "Seguidores",
+    "followers_count": "{count} seguidores",
+    "following": "Siguiendo",
+    "for_general_inquiries_and_community_supp": "Para dudas generales y soporte de la comunidad, también puedes encontrarme en el",
+    "galleries": "Galerías",
+    "gallery_link_copied": "¡Enlace de galería copiado!",
+    "gallevr_logo": "Logo de {appName}",
+    "get_started": "Comenzar",
+    "go_to_landing_page": "Ir a la página de inicio",
+    "guidelines": "Pautas",
+    "health": "Salud",
+    "highlight_post": "Destacar publicación",
+    "highlights": "Destacados",
+    "home": "Inicio",
+    "inbox": "Mensajes",
+    "i_have_read_and_agree_to_the_terms_of_se": "He leído y acepto los Términos de servicio",
+    "if_you_decline_the_terms_of_service_you_": "Si rechaza los Términos de servicio, se cerrará su sesión y no podrá usar la aplicación. ¿Está seguro de que desea rechazarlos?",
+    "link_copied_to_clipboard": "¡Enlace copiado al portapapeles!",
+    "loading_dots": "Cargando...",
+    "loading_galleries": "Cargando galerías...",
+    "local": "Local",
+    "manage_badges": "Gestionar insignias",
+    "mark_all_read": "Marcar todo como leído",
+    "new": "Nuevo",
+    "next_month": "Mes siguiente",
+    "no_description": "Sin descripción",
+    "no_galleries_created_yet": "Aún no se han creado galerías",
+    "not_authenticated": "No autenticado",
+    "off": "Desactivado",
+    "on": "Activado",
+    "people": "Personas",
+    "permissions_blocked": "Permisos bloqueados",
+    "photo_added_to_gallery": "Foto agregada a la galería",
+    "photo_removed_from_gallery": "Foto quitada de la galería",
+    "photo_shared_to_feed": "¡Foto compartida en el feed!",
+    "photos": "Fotos",
+    "photos_count": "{count} foto | {count} fotos",
+    "please_log_in_to_favorite_photos": "Inicia sesión para agregar fotos a favoritos",
+    "please_login_to_favorite_images": "Inicia sesión para agregar imágenes a favoritos",
+    "post_deleted": "Publicación eliminada.",
+    "posts": "Posts",
+    "previous_month": "Mes anterior",
+    "privacy_policy": "Privacidad",
+    "processing": "Procesando...",
+    "production": "Producción",
+    "profile_link_copied": "¡Enlace de perfil copiado!",
+    "redirecting": "Redireccionando...",
+    "refresh": "Actualizar",
+    "referred": "Recomendados",
+    "remove_from_favorites": "Quitar de favoritos",
+    "removed_from_favorites": "Quitado de favoritos",
+    "report": "Reportar",
+    "retry": "Reintentar",
+    "search_photos_worlds_or_friends": "Buscar fotos, mundos o amigos...",
+    "search_placeholder": "Buscar perfiles o publicaciones...",
+    "select": "Seleccionar",
+    "settings": "Configuración",
+    "share_to_feed": "Compartir",
+    "show_less": "Mostrar menos",
+    "show_more": "Mostrar más",
+    "start": "Inicio",
+    "stats": "Estadísticas",
+    "status": "Estado",
+    "support": "Apoyar",
+    "system": "Sistema",
+    "terms_of_service": "Términos de servicio",
+    "terms_of_service_accepted": "Términos de servicio aceptados",
+    "title_required_to_share": "Se requiere un título para compartir una publicación.",
+    "tos_accepted": "Términos de servicio aceptados",
+    "total_photos": "Fotos totales",
+    "total_views": "Vistas totales",
+    "trending": "Tendencias",
+    "try_again": "Reintentar",
+    "unfollow": "Dejar de seguir",
+    "unknown": "Desconocido",
+    "unknown_user": "Desconocido",
+    "view": "Ver",
+    "view_profile": "Ver perfil",
+    "welcome_back": "¡Te damos la bienvenida de nuevo!",
+    "you_have_already_highlighted_this_post": "Ya destacaste esta publicación.",
+    "you_must_accept_the_terms_of_service_to_": "Debe aceptar los Términos de servicio para usar esta aplicación. Se ha cerrado su sesión.",
+    "you_must_be_logged_in_to_favorite_photos": "Debes iniciar sesión para agregar fotos a favoritos",
+    "you_must_be_logged_in_to_highlight_posts": "Debes iniciar sesión para destacar publicaciones.",
+    "your": "Tu",
+    "share_gallery": "Compartir galería",
+    "view_only": "Puede ver",
+    "can_edit": "Puede editar",
+    "collaborators": "Colaboradores",
+    "remove_collaborator": "Quitar colaborador",
+    "leave_gallery": "Salir de la galería",
+    "remove_from_my_galleries": "Quitar de mis galerías",
+    "link_access": "Acceso del enlace",
+    "copy_link": "Copiar enlace",
+    "share_to_recent_dms": "Compartir en mensajes recientes",
+    "no_recent_dms": "No hay mensajes recientes",
+    "collaborator_removed": "Colaborador quitado con éxito",
+    "failed_to_remove_collaborator": "Error al quitar colaborador",
+    "left_gallery": "Saliste de la galería con éxito",
+    "failed_to_leave_gallery": "Error al salir de la galería",
+    "shared": "Compartida",
+    "message_sent": "¡Mensaje enviado con éxito!",
+    "failed_to_send_message": "Error al enviar mensaje",
+    "transfer_ownership": "Transferir Propiedad",
+    "transfer_ownership_confirm": "¿Estás seguro de que deseas transferir la propiedad de esta galería a {name}? Te convertirás en editor.",
+    "transfer_ownership_success": "¡Propiedad transferida con éxito!",
+    "transfer_ownership_failed": "Error al transferir la propiedad"
+  },
+  "components": {
+    "accounttab": {
+      "account_management": "Gestión de la cuenta",
+      "manage_your_account_settings": "Administra la configuración de tu cuenta",
+      "permanently_delete_your_account_and_all_": "Eliminar permanentemente tu cuenta y todos los datos asociados. Esta acción no se puede deshacer."
+    },
+    "accountverification": {
+      "account_verification": "Verificación de la cuenta",
+      "after_verification_in_the_app_press_the_": "Después de la verificación en la aplicación, presiona el botón \"Continuar\" de abajo.",
+      "already_friends_skip": "¿Ya somos amigos? Omitir",
+      "primary_platform": "¿En qué plataforma juegas?",
+      "vrchat_desc": "Usa tu nombre de pantalla de VRChat para comenzar",
+      "resonite_desc": "Usa tu nombre de pantalla de Resonite para comenzar",
+      "find_resonite_account": "Encuentra tu cuenta de Resonite",
+      "enter_resonite_display_name": "Ingresa tu nombre de pantalla de Resonite",
+      "resonite_search_error": "No se pudo encontrar este usuario de Resonite. Revisa la ortografía o prueba con su nombre de pantalla.",
+      "vrchat_search_error": "No se pudo encontrar este usuario de VRChat. Revisa la ortografía o prueba con su ID de usuario de VRChat completo.",
+      "verification_start_error": "Algo salió mal al iniciar la verificación. Inténtalo de nuevo.",
+      "alternative_method_using_a_code_in_your_": "Método alternativo usando un código en tu estado de {platformName}.",
+      "automatic_verification": "Verificación automática",
+      "automatic_verification_uses_a_secure_loc": "La verificación automática utiliza un proceso de inicio de sesión local seguro. Tus credenciales de {platformName} nunca se envían a los servidores de GalleVR. Simplemente sigue el proceso de incorporación integrado de la aplicación para comenzar.",
+      "back_to_options": "Volver a las opciones",
+      "link_your_vrchat_account_to_keep_your_ph": "Vincula tu cuenta de {platformName} para mantener tus fotos privadas y seguras. Tus credenciales están a salvo y no se almacenan en los servidores de GalleVR.",
+      "manual_verification": "Verificación manual",
+      "manual_verification_uses_a_unique_code_t": "La verificación manual utiliza un código único que establecerás en tu estado de {platformName}. La aplicación te guiará en este proceso.",
+      "next_step": "Paso siguiente:",
+      "the_recommended_method_secure_private_an": "El método recomendado. Seguro, privado y rápido.",
+      "use_this_method_if_you_prefer_not_to_log": "Usa este método si prefieres no iniciar sesión con {platformName} localmente o si la verificación automática no funciona.",
+      "when_to_use": "Cuándo usar:",
+      "your_login_information_never_leaves_your": "Su información de inicio de sesión nunca sale de su dispositivo.",
+      "your_privacy_is_key": "Su privacidad es clave:",
+      "who_are_you": "¿Quién eres?",
+      "enter_user_id_instruction": "Ingresa tu nombre de pantalla/ID de usuario de VRChat (usr_...) o tu ID de usuario de Resonite (U-...)",
+      "is_this_you": "¿Eres tú?",
+      "yep_continue": "¡Sí, continuar!",
+      "final_validation_steps": "Pasos finales de validación",
+      "waiting_for_you": "Esperándote...",
+      "accept_friend_request": "Aceptar solicitud de amistad",
+      "open_resonite_friend_request": "Abre Resonite y acepta la solicitud de contacto del bot.",
+      "open_vrchat_friend_request": "Abre VRChat y acepta la solicitud de amistad de",
+      "check_status": "Comprobar estado",
+      "send_verification_code": "Enviar código de verificación",
+      "change_status_description": "Cambiar descripción de estado",
+      "complete_step_1_first": "Completa el paso 1 primero para desbloquear este paso.",
+      "send_code_message_resonite": "Envía este código de 8 dígitos como un mensaje al bot en Resonite:",
+      "paste_code_vrchat_status": "Pega este código de 8 dígitos en cualquier parte de tu texto de estado de VRChat:",
+      "waiting_resonite_message": "Esperando a que envíes el mensaje de verificación al bot...",
+      "live_monitoring_enabled": "Monitoreo en vivo activado. ¡Procederemos automáticamente tan pronto como tu estado coincida!",
+      "waiting_friend_request": "Esperando a que aceptes la solicitud de amistad...",
+      "welcome_board": "¡Bienvenido a bordo!",
+      "successfully_verified": "Verificado correctamente. Iniciando sesión..."
+    },
+    "adminbadgemodal": {
+      "assign": "Asignar",
+      "badge_updated": "Insignia actualizada",
+      "done": "Listo",
+      "error": "Error: {error}",
+      "error_fetching_badges": "Error al obtener insignias: {error}",
+      "fetching": "Obteniendo...",
+      "manage_badges": "Gestionar insignias",
+      "remove": "Quitar"
+    },
+    "appearancetab": {
+      "1200x400px_recommended": "Se recomienda 1200x400px",
+      "avatar_image": "Foto de perfil",
+      "banner_image": "Banner",
+      "change_banner": "Cambiar banner",
+      "customize_how_your_profile_looks_to_othe": "Personaliza cómo ven otros tu perfil",
+      "profile_appearance": "Apariencia del perfil",
+      "supports_most_image_formats_lol": "Soporta casi cualquier formato de imagen lol",
+      "this_will_be_your_profile_picture_visibl": "Esta será tu foto de perfil visible para todos.",
+      "upload_new": "Subir nueva"
+    },
+    "basicinfotab": {
+      "a_short_status_displayed_on_your_profile": "Un estado corto que se muestra en tu perfil",
+      "bio": "Bio",
+      "display_name": "Nombre visible",
+      "how_you_want_to_be_known": "Cómo quieres que te conozcan",
+      "personal_information": "Información personal",
+      "tell_others_a_bit_about_yourself": "Cuéntale a otros un poco sobre ti",
+      "tell_others_about_yourself": "Cuéntale a otros sobre ti",
+      "this_will_be_your_public_display_name": "Este será tu nombre de usuario público",
+      "update_your_profile_information_visible_": "Actualiza la información de tu perfil visible para otros usuarios",
+      "whats_on_your_mind": "¿En qué estás pensando?"
+    },
+    "batchactionstoolbar": {
+      "cancel_selection": "Cancelar selección",
+      "photos_selected": "Fotos seleccionadas",
+      "select_gallery": "Seleccionar galería"
+    },
+    "commentspanel": {
+      "add_a_comment": "Comentar...",
+      "ago": "atrás",
+      "be_the_first_to_comment": "Sé el primero en comentar",
+      "comment_deleted": "Comentario eliminado",
+      "comments": "Comentarios",
+      "comments_disabled_in_demo": "Comentarios desactivados en la demo",
+      "failed_to_add_comment": "Error al agregar comentario",
+      "failed_to_delete_comment": "Error al eliminar comentario",
+      "failed_to_update_favorite": "Error al actualizar favorito",
+      "like_this_comment": "Dar me gusta a este comentario",
+      "no_comments_yet": "Sin comentarios",
+      "now": "Ahora",
+      "second": "segundo",
+      "seconds": "segundos",
+      "your_profile": "Tu perfil",
+      "reply": "Responder",
+      "replying_to": "Respondiendo a {name}"
+    },
+    "communityguidelinesheader": {
+      "help_us_keep_gallevr_a_safe_and_welcomin": "Ayúdanos a mantener a {appName} como un espacio seguro y agradable"
+    },
+    "communityguidelinespage": {
+      "1_respect_and_conduct": "1. Respeto y conducta",
+      "2_content_guidelines": "2. Directrices de contenido",
+      "3_intellectual_property": "3. Propiedad intelectual",
+      "4_enforcement": "4. Cumplimiento de normas",
+      "all_content_must_follow": "Todo el contenido debe cumplir con",
+      "be_kind": "Sé amable:",
+      "content_depicting_illegal_acts_extreme_v": "No se permite el contenido que muestre actos ilegales, violencia extrema o autolesiones, y se reportará a las autoridades de ser necesario.",
+      "dont_pretend_to_be_other_users_vrchat_st": "No te hagas pasar por otros usuarios, staff de {platformName} o el desarrollador de {appName}.",
+      "email_support": "Soporte por correo",
+      "explicit_content_is_not_allowed_to_be_po": "NO se permite publicar contenido explícito en el feed ni en galerías públicas.",
+      "explicitly_pornographic_or_illegal_conte": "El contenido explícitamente pornográfico o ilegal está estrictamente prohibido.",
+      "gallevr_was_built_to_celebrate_the_creat": "{appName} se creó para celebrar la creatividad y comunidad de los fotógrafos de {platformName}. Estas pautas están diseñadas para garantizar que cada usuario se sienta seguro, respetado e inspirado al compartir sus momentos virtuales.",
+      "if_a_world_creator_or_avatar_artist_asks": "Si el creador de un mundo o artista de un avatar pide que su trabajo no se muestre de cierta manera, respeta sus deseos.",
+      "if_you_encounter_content_or_behavior_tha": "Si encuentras contenido o comportamiento que viole estas pautas, utiliza la función de reporte en la foto/perfil o ponte en contacto directo con el equipo de moderación.",
+      "join_discord": "Únete a {social}",
+      "never_share_private_reallife_information": "Nunca compartas información privada de la vida real de otros usuarios sin su consentimiento explícito.",
+      "no_doxxing": "No Doxxing:",
+      "no_illegal_material": "Sin material ilegal:",
+      "no_impersonation": "Sin suplantación de identidad:",
+      "nsfw_policy": "Política de NSFW:",
+      "only_upload_photos_that_you_have_taken_o": "Sube únicamente fotos que hayas tomado tú o de las cuales tengas permiso para compartir.",
+      "our_mission": "Nuestra misión",
+      "own_your_captures": "Sé dueño de tus capturas:",
+      "permanent_ban_from_gallevr_services": "Baneo permanente de los servicios de {appName}.",
+      "removal_of_the_offending_content": "Eliminación del contenido infractor.",
+      "respect_creators": "Respeta a los creadores:",
+      "see_something_wrong": "¿Ves algo incorrecto?",
+      "temporary_suspension_of_your_account": "Suspensión temporal de tu cuenta.",
+      "treat_others_with_respect_harassment_bul": "Trata a los demás con respeto. El acoso, el bullying y los discursos de odio no tienen cabida aquí.",
+      "violations_of_these_guidelines_may_resul": "Las violaciones a estas pautas pueden resultar en:",
+      "vrchat_tos_compliance": "Cumplimiento de las Condiciones de servicio de {platformName}:",
+      "vrchats_terms_of_service": "Condiciones de servicio de {platformName}",
+      "we_reserve_the_right_to_determine_what_c": "El equipo de moderación se reserva el derecho de determinar qué constituye una violación y tomar las medidas correspondientes.",
+      "while_artistic_nudity_or_suggestive_avat": "Aunque el desnudo artístico o avatares sugerentes son comunes en VR, usa discreción y mantén dicho contenido estrictamente en galerías privadas.",
+      "you_are_responsible_for_the_content_you_": "Eres responsable del contenido que subes. Todas las fotos deben cumplir con lo siguiente:"
+    },
+    "connectweb": {
+      "browse_photos": "Explorar fotos",
+      "button_youll_be_automatically_signed_in_": "botón. Se iniciará tu sesión aquí automáticamente.",
+      "click_me": "¡Haz clic aquí!",
+      "code_expiration_info": "Ingresa esto en la app de {appName} para vincular al instante. (Expira en 10 min)",
+      "create_galleries": "Crear galerías",
+      "just_one_click_away": "A solo un clic de distancia",
+      "launch_the_gallevr_app_you_just_installe": "Abre la app de {appName} que acabas de instalar y haz clic en el",
+      "once_youre_in_you_can": "Una vez dentro, podrás:",
+      "open_gallery": "\"Abrir galería\"",
+      "pair_instruction": "Ingresa este código en la app de escritorio de {appName} para vincularla a esta cuenta.",
+      "pair_with_desktop": "Vincular con app de escritorio",
+      "share_moments": "Compartir momentos",
+      "the_final_step_is_to_connect_the_app_to_": "El último paso es conectar la app al sitio web. ¡Te damos la bienvenida a {appName}!",
+      "youre_all_set": "¡Todo listo!"
+    },
+    "createfeedpostmodal": {
+      "add": "Agregar",
+      "an_error_occurred": "Ocurrió un error.",
+      "choose_photo_tooltip": "Elegir foto",
+      "choose_photos_placeholder": "Haz clic para elegir fotos de tu galería (máximo 4)",
+      "failed_to_create_post": "Error al crear el post.",
+      "gallery": "Galería",
+      "loading_galleries": "Cargando galerías...",
+      "new_post": "Nuevo post",
+      "no_public_galleries_desc": "No se encontraron galerías públicas. Haz pública una galería para compartirla en el feed.",
+      "optional_post_title": "Título opcional...",
+      "photo": "Foto",
+      "post": "Publicar",
+      "posted_to_feed": "¡Publicado en el feed!",
+      "public": "Pública",
+      "sharing_gallery": "Compartiendo \"{name}\"",
+      "tags_placeholder": "Etiquetas (separadas por comas)",
+      "untitled": "Sin título",
+      "whats_happening": "¿Qué está pasando?",
+      "you": "Tú",
+      "show_world_data": "Mostrar datos del mundo",
+      "show_player_tags": "Mostrar etiquetas de jugador"
+    },
+    "creditspage": {
+      "android": "Android",
+      "anu_ui": "Anu UI",
+      "backend": "Backend",
+      "camera_has_been_instrumental_in_gallevrs": "Camera ha sido fundamental en el desarrollo de {appName}, probando exhaustivamente nuevas funciones en {os}, Web y plataformas de {device}. Sus comentarios y conceptos de interfaz moldearon directamente el diseño y funcionalidad de la app, logrando una experiencia más intuitiva y amigable.",
+      "core_team": "Equipo",
+      "dart": "Dart",
+      "every_share_helps_gallevr_grow": "¡Cada vez que compartes ayudas a crecer a {appName}!",
+      "express": "Express",
+      "flutter": "Flutter",
+      "frontend": "Frontend",
+      "im_in_charge_of_everything_at_gallevr_it": "Me encargo de todo en {appName}. Comenzó como un pequeño script por necesidad personal y creció hasta convertirse en algo que me entusiasma compartir con el mundo. Sabía que tenía que crear {appName}, y tenía que hacerlo bien.",
+      "im_incredibly_grateful_to_misname_for_de": "Estoy increíblemente agradecido con misname por diseñar el logo de {appName} y brindar valiosos consejos de diseño a lo largo del proyecto. Su talento creativo mejoró la identidad visual de {appName} y ayudó a que fuera más pulida y profesional.",
+      "intro_paragraph": "¡Hola, soy {name}! {appName} es un proyecto apasionante en el que he estado trabajando en solitario durante casi {years} años. Está desarrollado desde cero puramente por amor a la comunidad de VR.",
+      "knex": "Knex",
+      "libwebp": "LibWebP",
+      "logo_designer": "Diseño de logo",
+      "photo_watcher": "Observador de fotos",
+      "postgres": "Postgres",
+      "router": "Router",
+      "sharers": "Compartidores",
+      "special_thanks": "Agradecimientos especiales",
+      "supporters": "Colaboradores",
+      "technologies": "Tecnologías",
+      "tester_roles": {
+        "creator_and_developer": "Creador y desarrollador",
+        "lead_tester_and_ui_consultant": "Tester principal y consultor UI",
+        "logo_designer": "Diseñadora de logo",
+        "pico_windows": "Pruebas en Pico y Windows",
+        "windows": "Pruebas en Windows",
+        "windows_quest": "Pruebas en Windows y Quest"
+      },
+      "testers": "Probadores",
+      "thanks_to_those_who_made_this_possible": "Gracias a quienes hicieron esto posible.",
+      "unocss": "UnoCSS",
+      "vrchat_community": "Comunidad de {platformName}",
+      "your_donations_help_keep_gallevr_running": "Tus donaciones ayudan a mantener GalleVR en funcionamiento",
+      "your_support_and_feedback_mean_the_world": "Tu apoyo y tus comentarios significan el mundo para mí"
+    },
+    "curveseditor": {
+      "click_to_add_point_drag_to_move_doublecl": "Haz clic para añadir un punto • Arrastra para mover • Doble clic para quitar",
+      "reset_curve": "Restablecer curva"
+    },
+    "daterangepicker": {
+      "clear_dates": "Limpiar fechas",
+      "click_a_start_date": "Haz clic en una fecha de inicio",
+      "click_an_end_date": "Haz clic en una fecha de fin",
+      "range_selected": "Rango seleccionado"
+    },
+    "downloadapp": {
+      "download_apk": "Descargar APK",
+      "download_appimage": "Descargar AppImage",
+      "download_deb": "Descargar .deb",
+      "download_flatpak": "Descargar .flatpak",
+      "download_tar": "Descargar .tar.gz",
+      "download_the_gallevr_app": "Descarga la aplicación de {appName}",
+      "first_choose_your_platform_the_app_is_re": "Primero, elige tu plataforma. La aplicación es necesaria para autenticar y subir tus fotos desde el juego.",
+      "for_linux": "Para Linux",
+      "for_pc_vr": "Para PC VR",
+      "in_review_sideload_available": "En revisión para la tienda de Meta Quest. ¡Mantente al tanto! Puedes instalarla por sideload por ahora.",
+      "linux_description": "Elige tu formato de paquete preferido para Linux.",
+      "linux_desktop": "Escritorio de Linux",
+      "plug_and_play": "Conectar y usar",
+      "requires_sideloading": "Requiere Sideloading",
+      "standalone_vr": "VR Autónomo"
+    },
+    "favoritesheader": {
+      "your_collection_of_favorite_memories": "Tu colección de recuerdos favoritos"
+    },
+    "favoritespage": {
+      "mark_some_photos_as_favorites_to_see_the": "Marca algunas fotos como favoritas para verlas aquí",
+      "no_favorite_photos_yet": "Aún no hay fotos favoritas"
+    },
+    "feedheader": {
+      "explore_the_latest_moments_from_the_comm": "Explora los últimos momentos de la comunidad",
+      "feed": "Feed"
+    },
+    "feedpage": {
+      "empty_following_desc": "Sigue a otros usuarios para ver sus publicaciones en tu feed.",
+      "empty_following_title": "¡No hay nada que ver aquí... todavía!",
+      "empty_furality_desc": "¡Sé el primero en compartir una foto de un mundo de Furality!",
+      "empty_furality_title": "Aún no hay publicaciones de Furality.",
+      "empty_highlights_desc": "¡Los supporters pueden destacar publicaciones para que aparezcan aquí!",
+      "empty_highlights_title": "Aún no hay destacados.",
+      "empty_new_desc": "¡Sé el primero en compartir una foto en el feed!",
+      "empty_new_title": "No hay publicaciones nuevas.",
+      "empty_trending_desc": "Vuelve más tarde para ver qué es tendencia.",
+      "empty_trending_title": "No hay publicaciones en tendencia ahora mismo.",
+      "failed_to_fetch_feed": "Error al cargar el feed",
+      "gallery": "Galería",
+      "loading_feed": "Cargando feed...",
+      "new_post": "Nuevo post",
+      "photo": "Foto",
+      "post_not_found_or_you_do_not_have_access": "Publicación no encontrada o no tienes acceso.",
+      "share_gallery": "Compartir una galería",
+      "share_photo": "Compartir una foto",
+      "scroll_to_top": "Volver arriba",
+      "whats_happening": "¿Qué está pasando?",
+      "youve_reached_the_end_of_the_feed": "Has llegado al final del feed."
+    },
+    "feedpostcard": {
+      "delete_post": "Eliminar post",
+      "post_link_copied": "¡Enlace de publicación copiado!",
+      "report_post": "Reportar publicación",
+      "this_action_cannot_be_undone_the_post_wi": "Esta acción no se puede deshacer. La publicación se eliminará de forma permanente."
+    },
+    "galleriesheader": {
+      "galleries": "Galerías",
+      "organize_and_share_your_vr_photos": "Organiza y comparte tus fotos de VR"
+    },
+    "galleriespage": {
+      "create_a_gallery_to_organize_your_photos": "Crea una galería para organizar tus fotos",
+      "failed_to_create_gallery": "Error al crear galería",
+      "failed_to_delete_gallery": "Error al eliminar galería",
+      "failed_to_update_gallery": "Error al actualizar galería",
+      "gallery_created_successfully": "Galería creada con éxito",
+      "gallery_deleted_successfully": "Galería eliminada con éxito",
+      "gallery_updated_successfully": "Galería actualizada con éxito",
+      "no_user_id_available": "No hay ID de usuario disponible"
+    },
+    "gallerycard": {
+      "edit_gallery": "Editar galería"
+    },
+    "galleryeditmodal": {
+      "access_types": {
+        "followers": "Seguidores",
+        "following": "Siguiendo",
+        "private": "Privada",
+        "public": "Pública",
+        "registered": "Registrados"
+      },
+      "create_dynamic_gallery": "Crear galería dinámica",
+      "create_manual_gallery": "Crear galería manual",
+      "description_optional": "Descripción (opcional)",
+      "edited_status": "Estado de edición",
+      "edited_status_options": {
+        "any": "Cualquier estado",
+        "edited": "Solo editadas",
+        "original": "Solo originales"
+      },
+      "filter_dates": "Filtrar fechas",
+      "filtering": "Filtrado",
+      "gallery_name": "Nombre de galería",
+      "instance_types": {
+        "any": "Cualquiera",
+        "friends_plus": "Solo Amigos+",
+        "invite": "Solo Invitación",
+        "invite_plus": "Solo Invitación+",
+        "public": "Solo Pública"
+      },
+      "preview_gallery": "Previsualizar galería",
+      "not": "No",
+      "search_players": "Buscar jugadores...",
+      "search_worlds": "Buscar mundos...",
+      "select_access_type": "Acceso",
+      "select_instance_type": "Instancia"
+    },
+    "galleryheader": {
+      "browse_your_vr_photos": "Explora tus fotos de VR",
+      "search": "Buscar..."
+    },
+    "gallerypage": {
+      "no_photos_found": "No se encontraron fotos",
+      "upload_some_photos_from_vrchat_to_get_st": "Sube algunas fotos desde {platformName} para comenzar"
+    },
+    "galleryselector": {
+      "create_a_gallery": "Crear una galería",
+      "failed_to_add_photo_to_gallery": "Error al agregar foto a la galería",
+      "no_description": "Sin descripción",
+      "no_galleries_available": "No hay galerías disponibles",
+      "photo_added_to_gallery": "Foto agregada a la galería"
+    },
+    "gallerytab": {
+      "hide_gallery_from_profile": "Ocultar galería del perfil",
+      "no_gallery": "Sin galería",
+      "select_a_gallery_to_display_on_your_prof": "Selecciona una galería para mostrar en tu perfil",
+      "showcase_gallery": "Galería destacada"
+    },
+    "galleryviewer": {
+      "added_count_photos_to_gallery": "Se agregaron con éxito {count} fotos a la galería",
+      "an_error_occurred_while_adding_photos": "Ocurrió un error al agregar fotos",
+      "deleted_count_photos": "Se eliminaron con éxito {count} fotos",
+      "failed_to_add_photo": "Error al agregar foto",
+      "failed_to_load_gallery": "Error al cargar la galería",
+      "failed_to_load_gallery_photos": "Error al cargar las fotos de la galería",
+      "no_photos_found_in_this_gallery": "No se encontraron fotos en esta galería",
+      "search_gallery_photos": "Buscar fotos de la galería...",
+      "try_adjusting_your_search": "Intenta ajustar tu búsqueda"
+    },
+    "galleryviewerheader": {
+      "all_dates": "Cualquier fecha",
+      "default_sort": "Orden predeterminado",
+      "filters": "Filtros:",
+      "from_date": "Desde {date}",
+      "gallery_link_copied": "¡Enlace de galería copiado!",
+      "share": "Compartir",
+      "show_less": "Mostrar menos",
+      "until_date": "Hasta {date}"
+    },
+    "healthpage": {
+      "cache": "Caché",
+      "connection_lost": "Conexión perdida",
+      "database": "Base de datos",
+      "disk": "Disco",
+      "every_10s": "Cada 10s",
+      "live_update": "Actualización en vivo",
+      "load_history": "Cargar historial",
+      "postgresql": "PostgreSQL",
+      "process": "Proceso",
+      "process_cpu": "CPU del proceso",
+      "process_memory": "Memoria del proceso",
+      "redis": "Redis",
+      "services": "Servicios",
+      "session": "Sesión",
+      "storage": "Espacio",
+      "updating_status": "Actualizando estado...",
+      "uptime": "Activo",
+      "vrchat": "{platformName}"
+    },
+    "homeheader": {
+      "welcome_back": "Hola,",
+      "your_vr_photo_dashboard": "Tu panel de fotos de VR"
+    },
+    "homepage": {
+      "browse_search_and_manage_all_your_vr_pho": "Explora, busca y administra todas tus fotos de VR.",
+      "community_feed": "Feed de la comunidad",
+      "no_photos_of_you_by_others_found": "No se encontraron fotos tuyas tomadas por otros",
+      "photos_of_you_by_others": "Fotos contigo de otros",
+      "photos_you_are_in": "Fotos en las que estás",
+      "photos_you_might_be_in": "Fotos en las que podrías estar",
+      "no_photos_you_are_in_found": "No se encontraron fotos etiquetadas",
+      "no_photos_you_might_be_in_found": "No se encontraron fotos potenciales",
+      "when_others_tag_you_they_will_show_up_here": "Cuando otros te etiqueten en sus fotos, aparecerán aquí.",
+      "when_you_are_in_the_world_but_not_tagged": "Fotos tomadas mientras estabas en la misma instancia del mundo pero no te han etiquetado.",
+      "quickly_access_all_your_most_loved_momen": "Accede rápidamente a todos tus momentos favoritos.",
+      "see_whats_new_in_the_gallevr_community": "Mira qué hay de nuevo en la comunidad de {appName}.",
+      "view_all": "Ver todo",
+      "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "Cuando otros tomen fotos en las que aparezcas y las hagan públicas, se mostrarán aquí",
+      "your_favorites": "Tus favoritos",
+      "your_gallery": "Tu galería",
+      "gallevr_discord": "Discord de GalleVR",
+      "discord_desc": "Únete a la comunidad, comparte tus comentarios y entérate de las últimas novedades."
+    },
+    "imageeditor": {
+      "adjustments": "Ajustes",
+      "artist_filters": "Filtros de artista",
+      "bloom": "Bloom",
+      "blur": "Desenfocar",
+      "brightness": "Brillo",
+      "color_grading": "Gradación de color",
+      "contrast": "Contraste",
+      "curves": "Curvas",
+      "edit_image": "Editar imagen",
+      "edits_applied_successfully": "¡Ediciones aplicadas con éxito!",
+      "free_filters": "Filtros gratis",
+      "mega": "Mega",
+      "presets": "Presets",
+      "preview": "Previa",
+      "reset_edits": "Restablecer",
+      "saturation": "Saturación",
+      "sepia": "Sepia",
+      "super": "Súper",
+      "supporter": "Colaborador",
+      "temperature": "Temperatura",
+      "tint": "Tinte"
+    },
+    "imagegrid": {
+      "no_images_found": "No se encontraron imágenes",
+      "try_adjusting_your_search_criteria_or_fi": "Intenta ajustar tus criterios de búsqueda o filtros para ver más resultados"
+    },
+    "imageuploadmodal": {
+      "change_background_image": "Cambiar imagen de fondo",
+      "change_banner_image": "Cambiar imagen del banner",
+      "change_profile_picture": "Cambiar foto de perfil",
+      "change_promo_image": "Cambiar imagen promocional",
+      "click_to_upload": "haz clic para subir",
+      "file_is_too_large_maximum_size_is_5mb": "El archivo es demasiado grande. El tamaño máximo es 5MB.",
+      "image_preview": "Previsualización de imagen",
+      "leave_empty_to_use_your_vrchat_profile_p": "Déjalo vacío para usar tu foto de perfil de {platformName}.",
+      "or": "O",
+      "paste_an_image_url": "Pega una URL de imagen",
+      "recommended_size_1200x400_pixels": "Se recomienda 1200x400 píxeles",
+      "recommended_size_1920x1080_pixels": "Se recomienda 1920x1080 píxeles",
+      "recommended_size_500x500_pixels": "Se recomienda 500x500 píxeles",
+      "recommended_size_800x400_pixels": "Se recomienda 800x400 píxeles",
+      "save_image": "Guardar imagen",
+      "use_vrchat_picture": "Usar foto de {platformName}"
+    },
+    "imageviewer": {
+      "cancel_tagging": "Cancelar etiquetado",
+      "close_viewer": "Cerrar visor",
+      "could_not_load_image": "No se pudo cargar la imagen",
+      "draw_a_box_around_someone_to_tag_them": "Dibuja un recuadro alrededor de alguien para etiquetarle",
+      "edited_label": "(editada)",
+      "edited_photo_uploaded_successfully_reloa": "¡Foto editada subida con éxito! Recargando...",
+      "failed_to_load_comments": "Error al cargar comentarios",
+      "failed_to_remove_tag": "Error al quitar etiqueta",
+      "failed_to_save_tag": "Error al guardar etiqueta",
+      "filter_people_in_photo": "Filtrar personas en la foto...",
+      "finish_tagging": "Terminar etiquetado",
+      "finish_stickers": "Finalizar stickers",
+      "no_matches_found": "No se encontraron coincidencias",
+      "no_people_detected_in_this_images_metada": "No se detectaron personas en los metadatos de esta imagen.",
+      "remove_tag": "Quitar etiqueta",
+      "tag_people": "Etiquetar personas",
+      "tag_this_person": "Etiquetar a esta persona",
+      "uploading_edited_photo": "Subiendo foto editada...",
+      "flip_horizontal": "Voltear horizontalmente",
+      "flipping_image": "Volteando imagen..."
+    },
+    "imagevieweractions": {
+      "are_you_sure_you_want_to_delete_this_photo": "¿De verdad quieres eliminar esta foto?",
+      "are_you_sure_you_want_to_delete_this_post_this_action_cannot_be_undone": "¿De verdad quieres eliminar esta publicación? Esta acción no se puede deshacer.",
+      "are_you_sure_you_want_to_remove_this_photo_from_the_gallery": "¿De verdad quieres quitar esta foto de la galería?",
+      "downloading_image": "Descargando imagen...",
+      "failed_to_delete_photo": "Error al eliminar la foto",
+      "failed_to_remove_photo": "Error al quitar la foto",
+      "failed_to_remove_photo_from_gallery": "Error al quitar la foto de la galería",
+      "photo_deleted_successfully": "Foto eliminada con éxito",
+      "photo_removed_from_gallery": "Foto quitada de la galería",
+      "post_highlighted_count_used_today": "¡Publicación destacada! ({used}/{limit} usadas hoy)"
+    },
+    "imageviewercontrols": {
+      "add_to_gallery": "Agregar a la galería",
+      "added_count_photos_to_gallery": "Se agregaron {count} fotos a la galería",
+      "copy_link": "Copiar enlace",
+      "deleted_count_photos": "Se eliminaron {count} fotos",
+      "download": "Descargar",
+      "edit_photo": "Editar foto",
+      "more_actions": "Más acciones",
+      "photographer_profile": "Perfil del fotógrafo",
+      "remove_from_gallery": "Quitar de la galería",
+      "report_photo": "Reportar foto",
+      "upload_edited_version": "Subir versión editada",
+      "view_comments": "Ver comentarios",
+      "view_players": "Ver jugadores",
+      "sticker_mode": "Modo Sticker"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "saved_tab": "Guardados",
+      "my_stickers_tab": "Míos",
+      "upload_tab": "Subir",
+      "upload_limit": "Solo Super Supporters (máx 5MB)",
+      "upload_warning": "Los stickers NSFW/explícitos están estrictamente prohibidos. Todas las subidas deben ser aprobadas por el equipo de moderación de GalleVR antes de que otros puedan verlos, guardarlos o usarlos.",
+      "sticker_details": "Detalles del Sticker",
+      "custom_sticker": "Sticker Personalizado",
+      "unknown_uploader": "Desconocido",
+      "save_sticker_btn": "Guardar Sticker",
+      "sticker_saved": "¡Sticker guardado en tu selector!",
+      "failed_to_save": "Error al guardar el sticker",
+      "click_to_view_details": "Haz clic para ver detalles"
+    },
+    "landingcta": {
+      "download_app": "Descargar app",
+      "free_to_use": "Gratis",
+      "gallevr_is_free_with_unlimited_storage_j": "{appName} es gratuito y con almacenamiento ilimitado. Solo vincula tu cuenta de {platformName} para comenzar.",
+      "get_started_now": "Comenzar ahora",
+      "in_minutes": "En minutos",
+      "instant_setup": "Inicio rápido",
+      "join_the_vr_community_organizing_their_m": "Únete a la comunidad de VR que organiza sus recuerdos con {appName}",
+      "no_extra_account_needed": "Sin necesidad de otra cuenta.",
+      "private_by_default": "Privado por defecto"
+    },
+    "landingdownload": {
+      "become_a_supporter": "Conviértete en colaborador",
+      "better_photo_quality": "Mejor calidad de foto",
+      "choose_your_platform_and_download_the_ap": "Elige tu plataforma y descarga la app para empezar a organizar tus fotos de VR.",
+      "desktop_application": "Aplicación de escritorio",
+      "download_galle": "Descargar {appName}",
+      "gallevr_is_a_solo_project_your_support_h": "{appName} es un proyecto en solitario. Tu apoyo ayuda a cubrir los costos y mantiene la plataforma viva para todos.",
+      "join_our_amazing_supporters": "¡Únete a nuestros increíbles colaboradores!",
+      "need_help": "¿Necesitas ayuda?",
+      "quest_pico": "{device} / {device}",
+      "support_development": "Apoyar el desarrollo",
+      "support_gallevr": "Apoyar a {appName}",
+      "supporter_badge": "Insignia de colaborador",
+      "try_new_features_first": "Prueba nuevas funciones primero",
+      "view_setup_guide": "Ver guía de configuración",
+      "vr_application": "Aplicación de VR"
+    },
+    "landingfeatures": {
+      "browse_on_your_phone_view_in_vr": "Explora en tu teléfono, míralo en VR",
+      "create_a_profile_follow_friends_and_see_": "Crea un perfil, sigue a tus amigos y mira sus últimas aventuras.",
+      "cross_device": {
+        "description": "Úsalo en tu teléfono, computadora, visor {device} o {device}.",
+        "title": "Multiplataforma"
+      },
+      "everything_is_private_by_default_you_dec": "Todo es privado por defecto. Tú decides qué se mantiene privado y qué se hace público.",
+      "find_any_photo_instantly_gallevr_automat": "Encuentra cualquier foto al instante. {appName} etiqueta tus fotos automáticamente con los nombres de los mundos y de quién estaba allí.",
+      "follow_your_friends": "Sigue a tus amigos",
+      "private_by_default": {
+        "description": "Las fotos se suben a tu galería privada. Solo serán públicas cuando decidas compartirlas o crear galerías públicas.",
+        "title": "Privado por defecto"
+      },
+      "smart_autotagging": "Autoetiquetado inteligente",
+      "smart_sorting": {
+        "description": "Fotos organizadas automáticamente por mundo y quién estaba allí contigo.",
+        "title": "Orden inteligente"
+      },
+      "smart_tagging": {
+        "description": "Encuentra cualquier foto al instante con etiquetas automáticas y búsqueda.",
+        "title": "Etiquetas inteligentes"
+      },
+      "you_control_your_photos": "Tú controlas tus fotos"
+    },
+    "landinghero": {
+      "a_home_for_your": "Un hogar para tus",
+      "enter_app": "Entrar a la app",
+      "free_unlimited_and_built_with_love": "Crea una galería limpia con tus recuerdos, encuéntralos al instante y compártelos fácilmente.",
+      "gallevr_app": "App de {appName}",
+      "gallevr_is_a_social_platform_for_your_vr": "¿Cansado de buscar en carpetas locales desordenadas?",
+      "pathfinder_announcement": "Reclama hoy tu insignia exclusiva de 'Pionero'",
+      "show_me_more": "Mostrar más",
+      "vr_photos": "Fotos de VR"
+    },
+    "landingjourney": {
+      "a_simple_script": "El inicio",
+      "building_galle": "Creado para las personas",
+      "it_all_started_when_i_wanted_a_simple_wa": "Creé {appName} porque resultaba incómodo buscar y compartir mis fotos. El explorador de archivos dejaba de responder y yo quería un hogar para mis fotos que fuera privado, pero fácil de compartir.",
+      "that_script_worked_but_it_had_me_thinking": "{appName} etiqueta tus fotos automáticamente con el mundo y los jugadores presentes para que puedas encontrar cualquier foto fácilmente. En lugar de escarbar en tus carpetas, obtienes una galería limpia de tus recuerdos y un feed con las fotos que tus amigos comparten.",
+      "the_path_that_turned_one_idea_into_galle": "El camino que convirtió una idea en {appName}.",
+      "the_what_if": "El \"¿Qué pasaría si...?\"",
+      "well_im_just_getting_started_gallevr_is_": "Bueno, apenas estoy comenzando... ¡{appName} es un proyecto apasionante que necesita personas usándolo para poder prosperar! ¡Tu participación, comentarios y apoyo le darán forma para ser el mejor lugar para compartir en VR!",
+      "whats_to_come": "¿Qué está por venir?"
+    },
+    "landingpage": {
+      "a_social_platform_for_your_vr_photos_cap": "Una plataforma social para tus fotos de VR. Captura, comparte y encuentra tus momentos favoritos al instante.",
+      "authentication_failed": "Error de autenticación",
+      "authentication_failed_please_try_again": "Error de autenticación. Inténtalo de nuevo.",
+      "copyright_all_rights_reserved": "© {year} {appName}. Todos los derechos reservados.",
+      "other_stuff": "Otras cosas",
+      "watch_video": "Ver video",
+      "welcome_back": "¡Te damos la bienvenida de nuevo!"
+    },
+    "landingshowcase": {
+      "a_full_social_platform": "Una plataforma social completa",
+      "back_to_gallery": "Volver a la galería",
+      "build_your_brand_and_social_presence": "Crea tu marca y tu presencia social",
+      "features": {
+        "favorites": {
+          "description": "Marca tus mejores momentos con un corazón. Tus favoritos se sincronizan al instante en todos tus dispositivos.",
+          "label": "Favoritos",
+          "title": "Favoritos curados"
+        },
+        "gallery": {
+          "description": "No más escarbar en carpetas ni preguntarse dónde quedó esa toma perfecta. Todo está exactamente donde lo esperas.",
+          "label": "Fotos",
+          "title": "Todas tus fotos, justo aquí"
+        },
+        "profile": {
+          "description": "Presume tus mejores capturas y sigue a tus amigos para ver sus últimas aventuras en el metaverso.",
+          "label": "Perfil",
+          "title": "Tu identidad de VR"
+        },
+        "viewer": {
+          "description": "Cada foto contiene metadatos sobre dónde fue tomada y quién estaba allí. Toca los nombres de los jugadores para visitar sus perfiles.",
+          "label": "Visor",
+          "title": "Visor de detalles enriquecido"
+        }
+      },
+      "filter_as_you_type_find_what_you_want": "Filtra mientras escribes, encuentra lo que quieres",
+      "find_your_photos_instantly": "Encuentra tus fotos al instante",
+      "follow_friends_to_see_their_latest_adven": "Sigue a tus amigos para ver sus últimas aventuras",
+      "gallevr": "{appName}",
+      "heart_photos_in_the_gallery_to_see_them_": "Marca con un corazón las fotos en la galería para verlas aquí",
+      "i_was_tired_of_scrolling_through_endless": "Estaba cansado de desplazarme por carpetas interminables. Así que creé una mejor manera de explorar, compartir e interactuar con recuerdos de VR.",
+      "instant_profile_access_for_anyone_presen": "Acceso instantáneo al perfil de cualquiera que esté presente",
+      "mark_your_best_photos_as_favorites": "Marca tus mejores fotos como favoritas",
+      "no_favorites_yet": "Aún no hay favoritos",
+      "oneclick_favoriting_from_any_view": "Favoritos con un solo clic desde cualquier vista",
+      "remember_the_exact_world_and_instance": "Recuerda el mundo y la instancia exacta",
+      "see_every_player_present_in_the_photo": "Ve a cada jugador presente en la foto",
+      "showcase_your_journey_and_top_shots": "Muestra tu trayectoria y tus mejores tomas",
+      "syncs_instantly_across_all_your_devices": "Se sincroniza al instante en todos tus dispositivos",
+      "your_best_moments_always_one_tap_away": "Tus mejores momentos, siempre a un toque de distancia"
+    },
+    "landingtestimonials": {
+      "hear_from_the_awesome_people_who_are_alr": "Escucha a las increíbles personas que ya usan {appName}",
+      "testimonials": {
+        "isamu": {
+          "quote": "Literalmente una de las mejores formas de administrar mi biblioteca. Jamás he tenido nada que se le acerque a la facilidad de uso que tiene esta app para todas mis fotos."
+        },
+        "ray": {
+          "quote": "Una forma muy fácil y cómoda de organizar mis fotos de {platformName}. Lo más sorprendente para mí es que {appName} es capaz de decir quién estaba en el mundo al momento de la foto."
+        }
+      },
+      "what_users_say": "Opiniones"
+    },
+    "metadatapanel": {
+      "no_additional_information": "Sin información extra",
+      "photo_info": "Info de la foto",
+      "players": "Jugadores",
+      "world": "Mundo"
+    },
+    "notificationspanel": {
+      "avatar_alt": "Avatar del actor para la notificación {id}",
+      "get_notified_even_when_the_page_is_in_th": "Recibe notificaciones incluso cuando la página esté en segundo plano.",
+      "notifications": "Notificaciones",
+      "you_have_no_notifications": "No tienes notificaciones"
+    },
+    "paymentservice": {
+      "failed_to_create_checkout_session": "Error al crear la sesión de pago",
+      "failed_to_open_billing_portal": "Error al abrir el portal de facturación",
+      "you_must_be_logged_in": "Debes iniciar sesión.",
+      "you_must_be_logged_in_to_support_us": "Debes iniciar sesión para apoyarnos."
+    },
+    "photogallery": {
+      "failed_to_fetch_photos_with_user": "Error al obtener las fotos con el usuario"
+    },
+    "photopickermodal": {
+      "clear_search": "Limpiar búsqueda",
+      "filter_placeholder": "Filtrar por mundo, jugador o fecha...",
+      "loading_photos": "Cargando tus fotos...",
+      "no_photos_match": "Ninguna foto coincide con el filtro",
+      "pick_one_photo": "Elige una foto de tu galería",
+      "pick_up_to_5_photos": "Elige hasta 5 fotos de tu galería",
+      "photos_selected": "{count} foto seleccionada | {count} fotos seleccionadas",
+      "select": "Seleccionar",
+      "select_a_photo": "Seleccionar una foto",
+      "select_photos": "Seleccionar fotos",
+      "sort_newest_first": "Ordenar por más recientes",
+      "sort_oldest_first": "Ordenar por más antiguas"
+    },
+    "photoselectionmodal": {
+      "add_selected": "Añadir",
+      "clear_search": "Limpiar búsqueda",
+      "filter_by_world_player_or_date": "Filtrar por mundo, jugador o fecha",
+      "loading_your_library": "Cargando tu biblioteca...",
+      "no_photos_match_your_filter": "Ninguna foto coincide con tu filtro",
+      "photos_selected": "{count} foto seleccionada | {count} fotos seleccionadas",
+      "select_all_visible": "Seleccionar todas las visibles",
+      "select_photos_to_add_to_this_gallery": "Selecciona las fotos para agregar a esta galería",
+      "try_adjusting_your_search_terms_or_filte": "Intenta ajustar tus términos de búsqueda o filtros para encontrar lo que estás buscando."
+    },
+    "platforminstructions": {
+      "apk": ".apk",
+      "appimage": ".AppImage",
+      "download_and_open_the": "Descarga y abre el archivo",
+      "download_appimage": "Descargar AppImage",
+      "enable_vrchat_logging": "Activar el registro (Logging) de {platformName}",
+      "exe": ".exe",
+      "file": "archivo.",
+      "file_from_the_previous_step": "archivo del paso anterior.",
+      "file_in_your_pico_browser": "archivo en el navegador de tu {device}.",
+      "find_and_open_it_from_your_main_app_libr": "Búscalo y ábrelo desde tu biblioteca principal de aplicaciones.",
+      "find_and_open_it_from_your_unknown_sourc": "Búscalo y ábrelo desde tu biblioteca de \"Orígenes desconocidos\".",
+      "for_linux_choose_your_preferred_package": "Para Linux, elige tu formato de paquete preferido y sigue el proceso de instalación estándar para tu distribución.",
+      "for_pico_you_can_install_the_app_directl": "Para {device}, puedes instalar la app directamente y necesitarás activar el registro de logs en {platformName}.",
+      "for_quest_youll_need_to_sideload_the_app": "Para {device}, puedes buscar {appName} en la tienda de Meta Quest o visitar la página de la tienda directamente.",
+      "install_from_meta_quest_store": "Busca {appName} en la tienda de Meta Quest, o haz clic en el botón de abajo para abrir la página de la tienda.",
+      "meta_quest_store": "Tienda de Meta Quest",
+      "gallevr_for_linux_is_available_in_multipl": "{appName} para Linux está disponible en múltiples formatos, incluidos .deb, .AppImage y Flatpak.",
+      "gallevr_for_windows_is_plugandplay_just_": "{appName} para {os} es conectar y usar. Solo ejecuta el instalador y sigue las indicaciones.",
+      "get_the": "Obtén el",
+      "go_back_to_step_1_and_select_your_platfo": "Vuelve al paso 1 y selecciona tu plataforma para ver las instrucciones específicas de instalación.",
+      "in_vrchat_go_to_settings_debug_and_set_l": "En {platformName}, ve a Configuración → Debug y cambia la opción Logging a \"Full\".",
+      "install_apk": "Instalar APK",
+      "launch_gallevr": "Iniciar {appName}",
+      "make_executable": "Hacer ejecutable",
+      "open_gallevr": "Abrir {appName}",
+      "open_the_app_from_your_desktop_or_start_": "Abre la aplicación desde tu escritorio o el menú de inicio.",
+      "open_the_file_and_follow_the_installatio": "Abre el archivo y sigue el asistente de instalación.",
+      "please_select_a_platform": "Selecciona una plataforma:",
+      "right_click_the_appimage_file_go_to_permissions_a": "Haz clic derecho en el archivo AppImage, ve a Propiedades o Permisos y marca \"Permitir ejecutar el archivo como un programa\".",
+      "run_installer": "Ejecutar instalador",
+      "sideload_apk": "Instalar APK (Sideload)",
+      "use_sidequest_or_adb_to_install_the_down": "Usa Side{device} o ADB para instalar el archivo descargado",
+      "view_on_meta_store": "Ver en la tienda de Meta",
+      "resonite_integration": "Integración con Resonite",
+      "resonite_desc": "Si estás usando {appName} con Resonite, asegúrate de tener instalado lo siguiente para garantizar una experiencia completamente fluida con el seguimiento de metadatos de fotos:",
+      "resonite_modloader": "ResoniteModLoader",
+      "resonite_modloader_desc": "(Requerido para mods)",
+      "resonite_ss_ext": "ResoniteScreenshotExtensions",
+      "resonite_ss_ext_desc": "(Guarda los metadatos de las capturas de pantalla)",
+      "resonite_fix_metadata": "FixPhotoMetadata",
+      "resonite_fix_metadata_desc": "(Alinea el formato de metadatos para {appName})"
+    },
+    "privacytab": {
+      "control_who_can_see_your_content": "Controle quién puede ver su contenido",
+      "hide_your_profile_from_other_users": "Oculte su perfil de otros usuarios",
+      "only_you_can_see_your_favorite_images": "Solo usted puede ver sus imágenes favoritas",
+      "privacy_settings": "Configuración de privacidad",
+      "private_favorites": "Favoritos privados",
+      "private_profile": "Perfil privado"
+    },
+    "profilefavoritestab": {
+      "loading_favorites": "Cargando favoritos...",
+      "no_favorite_photos_to_display": "No hay fotos favoritas para mostrar",
+      "this_users_favorites_are_private": "Los favoritos de este usuario son privados.",
+      "you_havent_favorited_any_photos_yet": "Aún no has agregado fotos a favoritos"
+    },
+    "profilegalleriestab": {
+      "no_galleries_to_display": "No hay galerías para mostrar",
+      "you_havent_created_any_galleries_yet": "Aún no has creado galerías"
+    },
+    "profileheader": {
+      "followers": "seguidores",
+      "following": "siguiendo",
+      "gallevr_join_date": "Fecha de unión a {appName}",
+      "joined_gallevr": "Se unió a {appName}",
+      "joined_vrchat": "Se unió a {platformName}",
+      "manage": "Gestionar",
+      "profile_banner": "Banner del perfil",
+      "profile_link_copied": "¡Enlace del perfil copiado!",
+      "report_user": "Reportar usuario",
+      "share_profile": "Compartir perfil",
+      "this_user_is_not_registered_on_gallevr_d": "Este usuario no está registrado en {appName}. Se muestran datos públicos de {platformName}.",
+      "total_favorites": "Favoritos totales",
+      "views": "Vistas",
+      "vrchat_join_date": "Fecha de unión a {platformName}",
+      "vrchat_profile": "Perfil de {platformName}",
+      "block_user": "Bloquear usuario",
+      "unblock_user": "Desbloquear usuario"
+    },
+    "profilepoststab": {
+      "loading_posts": "Cargando publicaciones...",
+      "no_posts_yet": "Sin posts aún",
+      "when_this_user_shares_photos_to_the_feed": "Cuando este usuario comparta fotos en el feed, aparecerán aquí."
+    },
+    "profileshowcasetab": {
+      "failed_to_load_gallery": "Error al cargar la galería",
+      "follow_to_view_this_gallery": "Sigue a {profileDisplayName} para ver esta galería",
+      "gallery_access_restricted": "Acceso a la galería restringido",
+      "loading_showcase": "Cargando galería destacada...",
+      "no_photos_in_this_gallery": "No hay fotos en esta galería",
+      "no_photos_to_display": "No hay fotos para mostrar",
+      "please_log_in_to_view_this_gallery": "Inicia sesión para ver esta galería",
+      "select_a_gallery_to_showcase_your_photos": "Selecciona una galería para destacar tus fotos en el modal de editar perfil",
+      "there_was_an_error_loading_the_showcase_": "Hubo un error al cargar la galería destacada. Inténtalo de nuevo más tarde."
+    },
+    "profiletabs": {
+      "posts": "Posts",
+      "showcase": "Destacados"
+    },
+    "publicgallerypage": {
+      "failed_to_load_photos": "Error al cargar las fotos",
+      "please_log_in_to_favorite_photos": "Inicia sesión para agregar fotos a favoritos"
+    },
+    "reportmodal": {
+      "additional_details": "Detalles",
+      "failed_to_submit_report": "Error al reportar",
+      "failed_to_submit_report_please_try_again": "Error al enviar el reporte. Inténtalo de nuevo.",
+      "harassment_or_bullying": "Acoso o intimidación",
+      "illegal_content": "Contenido ilegal",
+      "inappropriate_content": "Contenido inapropiado",
+      "other": "Otro",
+      "placeholders": {
+        "harassment": "Detalla el acoso o la intimidación...",
+        "illegal": "Describe qué hace que este contenido sea ilegal...",
+        "inappropriate": "Describe por qué este contenido es inapropiado...",
+        "other": "Detalla el motivo de tu preocupación...",
+        "select_reason": "Selecciona un motivo primero...",
+        "spam": "Explica por qué crees que esto es spam o una estafa..."
+      },
+      "reason_for_report": "Motivo",
+      "report_comment": "Reportar comentario",
+      "report_photo": "Reportar foto",
+      "report_post": "Reportar post",
+      "report_submitted_successfully": "Reporte enviado",
+      "report_user": "Reportar usuario",
+      "reporting_comment_by": "Reportando comentario de",
+      "reporting_photo_by": "Reportando foto de",
+      "reporting_post_by": "Reportando publicación de",
+      "reporting_user": "Reportando usuario",
+      "select_a_reason": "Selecciona un motivo",
+      "spam_or_scam": "Spam o estafa",
+      "submit": "Enviar",
+      "submit_report": "Enviar reporte",
+      "unknown_user": "Desconocido",
+      "your_report_will_be_sent_to_our_moderati": "Su reporte se enviará al equipo de moderación para su revisión. Nos tomamos todos los reportes muy en serio e investigaremos lo antes posible.",
+      "report_message": "Reportar Mensaje",
+      "reporting_message_by": "Reportando mensaje de:"
+    },
+    "searchbar": {
+      "no_recent_searches": "Sin búsquedas recientes",
+      "recent_searches": "Recientes",
+      "scroll_for_more": "Desplázate para ver más resultados (Mostrando {current} de {total})",
+      "search_date": "date: Buscar por fecha (AAAA-MM-DD)",
+      "search_edited": "edited: Filtrar por estado de edición (yes/no)",
+      "search_player": "player: Buscar por nombre del jugador",
+      "search_world": "world: Buscar por nombre del mundo",
+      "type_to_search": "Escribe para buscar {type}..."
+    },
+    "searchresultspage": {
+      "discover_photos": "Descubrir fotos",
+      "enter_a_search_term_above_to_find_users_": "Escribe un término de búsqueda arriba para encontrar usuarios y fotos",
+      "find_users": "Buscar usuarios",
+      "find_users_and_photos": "Buscar usuarios y fotos",
+      "loading_more_results": "Cargando más resultados...",
+      "no_more_results_to_load": "No hay más resultados que cargar",
+      "no_photos_found_matching_your_search": "No se encontraron fotos que coincidan con la búsqueda.",
+      "no_users_found_matching_your_search": "No se encontraron usuarios que coincidan con la búsqueda.",
+      "results_for": "Resultados de",
+      "scroll_for_more_results": "Desplázate para ver más resultados",
+      "search": "Búsqueda",
+      "search_users_or_photos": "Buscar usuarios o fotos...",
+      "start_your_search": "Inicia tu búsqueda",
+      "users": "Usuarios"
+    },
+    "settingspage": {
+      "account": "Cuenta",
+      "appearance": "Apariencia",
+      "date_auto": "Auto (Sistema)",
+      "date_format": "Formato de fecha",
+      "date_format_description": "Elige cómo se muestran las fechas y horas en la aplicación.",
+      "date_gb": "Europa",
+      "date_jp": "Japón",
+      "date_us": "América",
+      "dm_privacy_description": "Controla quién puede enviarte mensajes privados.",
+      "disables_page_transitions_and_complex_an": "Desactiva las transiciones de página y animaciones complejas. Activa esto si prefieres una interfaz estática o tienes sensibilidad al movimiento.",
+      "dyslexic_font": "Fuente OpenDyslexic",
+      "dyslexic_font_description": "Reemplaza la fuente predeterminada con OpenDyslexic, una tipografía diseñada para mejorar la legibilidad para lectores con dislexia.",
+      "language_en": "English",
+      "language_es": "Español",
+      "language_ja": "日本語",
+      "manage_your_preferences_and_account": "Ajustes de cuenta y preferencias",
+      "reduced_motion": "Movimiento reducido",
+      "select_format": "Selecciona el formato...",
+      "select_language": "Selecciona el idioma...",
+      "settings": "Configuración",
+      "sign_out": "Cerrar sesión",
+      "sign_out_description": "Cierra la sesión en este navegador. Tendrás que volver a iniciar sesión para gestionar tus fotos.",
+      "ui_language": "Idioma",
+      "ui_language_description": "Elige tu idioma preferido para la interfaz de la aplicación.",
+      "download_png": "Descargar como PNG",
+      "download_png_description": "Convertir imágenes de WebP a PNG localmente al descargar."
+    },
+    "setupfooter": {
+      "back_to_home": "Volver al inicio",
+      "continue": "Continuar",
+      "go_home": "Ir al inicio"
+    },
+    "setuppage": {
+      "gallevr_setup": "Instalar {appName}",
+      "lets_get_you_set_up_in_just_a_few_minute": "Vamos a dejar todo listo en unos pocos minutos.",
+      "steps": {
+        "connect": "Conectar",
+        "download": "Descargar",
+        "install": "Instalar",
+        "verify": "Verificar"
+      }
+    },
+    "sharetofeedmodal": {
+      "a_title_is_required_to_share_a_post": "Se requiere un título para compartir una publicación.",
+      "add_a_catchy_title": "Añade un título...",
+      "failed_to_share_post": "Error al compartir",
+      "landscape_avatar_event": "paisaje, avatar, evento",
+      "photo_shared_to_the_feed": "¡Foto compartida en el feed!",
+      "share_post": "Compartir",
+      "show_world_data": "Mostrar datos del mundo",
+      "show_player_tags": "Mostrar etiquetas de jugador"
+    },
+    "sidebar": {
+      "collapse": "Contraer",
+      "collapse_sidebar": "Contraer",
+      "expand": "Expandir",
+      "expand_sidebar": "Expandir",
+      "go_to_landing_page": "Ir a la página de inicio",
+      "profile": "Perfil"
+    },
+    "successpage": {
+      "all_features_have_been_automatically_act": "Todas las funciones se han activado automáticamente para tu cuenta. Puedes administrar tu suscripción cuando quieras en la configuración de tu perfil.",
+      "eternal_gratitude": "Mi eterna gratitud",
+      "helps_me_keep_the_lights_on_and_the_serv": "me ayuda a mantener los servidores activos y rápidos.",
+      "it_might_take_a_few_seconds_for_the_badg": "Puede tomar unos segundos para que la insignia aparezca en todos lados mientras se actualiza la caché. ¡Gracias por tu paciencia!",
+      "keeping_the_lights_on": "Mantener los servidores activos",
+      "profile_update": "Perfil actualizado",
+      "return_home": "Ir al inicio",
+      "support": "¡apoyo!",
+      "thank_you_for_the": "Muchas gracias por el",
+      "updating_your_profile_stats": "Actualizando las estadísticas de tu perfil...",
+      "view_your_profile": "Ver tu perfil",
+      "what_youve_unlocked": "Lo que has desbloqueado",
+      "your_contribution_as_a": "Tu contribución como",
+      "your_donation_goes_directly_towards_runn": "Tu donación va directamente a los costos operativos, alojamiento de imágenes y a mantener el sitio web rápido para todos."
+    },
+    "supportpage": {
+      "always": "siempre",
+      "any": "ningún",
+      "be_free_for_everyone_help_keep_it_that_w": "sea gratuito para todos. Ayuda a que siga siendo así.",
+      "benefits": {
+        "100_highlights_day": "100 destacados / día",
+        "15_highlights_day": "15 destacados / día",
+        "2k_photo_uploads": "Subida de fotos en 2K",
+        "3_highlights_day": "3 destacados / día",
+        "4k_photo_uploads": "Subida de fotos en 4K",
+        "8k_photo_uploads": "Subida de fotos en 8K",
+        "8k_quality": "Calidad 8K",
+        "advanced_image_editor": "Editor de imágenes avanzado",
+        "badges": "Insignias",
+        "crown_badge_on_profile": "Insignia de corona en el perfil",
+        "early_access_features": "Funciones con acceso anticipado",
+        "extra_image_filters": "Filtros de imagen adicionales",
+        "heart_badge_on_profile": "Insignia de corazón en el perfil",
+        "image_editor": "Editor de imágenes",
+        "keeping_the_lights_on": "Mantener servidores activos",
+        "personal_branding_options": "Opciones de branding personal",
+        "priority_dev_support": "Soporte de desarrollo prioritario",
+        "profile_customization_tools": "Herramientas de personalización de perfil",
+        "star_badge_on_profile": "Insignia de estrella en el perfil",
+        "stickers": "Stickers",
+        "supporter_discord_role": "Rol de colaborador en {social}",
+        "upload_custom_stickers": "Subir stickers personalizados"
+      },
+      "blue": "Blue",
+      "cancel_anytime": "Cancela cuando quieras",
+      "contact_support": "Contactar a soporte",
+      "development_hosting": "Desarrollo y hosting",
+      "donate_now": "Donar ahora",
+      "donate_once": "Donar una vez",
+      "ensuring_your_data_stays_private_and_the": "Asegurando que tus datos se mantengan privados y el sitio seguro.",
+      "every_bit_helps_maintain_gallevr_unlocks": "Cada pequeño aporte ayuda a mantener {appName}. ¡Desbloquea la insignia de \"Donador\"!",
+      "explore_tiers": "Explorar niveles",
+      "external_cloud_services_everything_is_ho": "servicios externos de la nube. Todo está alojado de forma local y construido por mí. Un enorme agradecimiento a mi amigo",
+      "failed_to_open_billing_portal": "Error al abrir el portal de facturación.",
+      "failed_to_start_checkout": "¿Has iniciado sesión? Error al iniciar el proceso de pago.",
+      "failed_to_start_donation": "Error al iniciar la donación.",
+      "for_providing_the_hosting_that_makes_thi": "por proporcionar el hosting que hace que todo esto sea posible.",
+      "from_me_to_you": "De mí para ti",
+      "future_tech": "Tecnología futura",
+      "gallevr_is_a_passion_project_ive_been_wo": "{appName} es un proyecto apasionante en el que he estado trabajando solo durante casi",
+      "gallevr_will": "{appName}",
+      "help_keep_gallevr_growing": "¡Ayuda a mantener {appName} en crecimiento!",
+      "helping_me_keep_gallevr_running": "Ayudándome a mantener a {appName} en funcionamiento.",
+      "hi_there_im": "Hola, soy",
+      "how_your_donation_helps": "Cómo ayuda tu donación",
+      "intro_paragraph_1": "¡Hola, soy {name}! {appName} es un proyecto apasionante en el que he estado trabajando en solitario durante casi {years} años. Está desarrollado desde cero puramente por amor a la comunidad de VR.",
+      "intro_paragraph_2": "He pasado mucho tiempo descifrando cómo mantener este servicio gratuito e ilimitado para todos en {windows}, {linux}, {quest} y {pico}.",
+      "intro_paragraph_3": "Para mantener tus datos privados, no utilizo {any} servicio externo de la nube. Todo está alojado de forma local y construido por mí. Un enorme agradecimiento a mi amigo {venrey} por proporcionar el hosting que hace que todo esto sea posible.",
+      "its_developed_from_scratch_purely_out_of": ". Está desarrollado desde cero puramente por amor a la comunidad de VR.",
+      "ive_spent_a_long_time_figuring_out_how_t": "He pasado mucho tiempo descifrando cómo mantener este servicio gratuito e ilimitado para todos en",
+      "linux": "{os}",
+      "manage_my_subscription": "Administrar mi suscripción",
+      "mo": "/mes",
+      "monthly_membership": "Membresía mensual",
+      "onetime_donation": "Donación única",
+      "onetime_tip": "Propina única",
+      "payments_secured_by": "Pagos asegurados por",
+      "prefer_a_simple_tip": "¿Prefieres dejar una propina sencilla?",
+      "secure_stripe_payment": "Pago seguro con {service}",
+      "security_stability": "Seguridad y estabilidad",
+      "send_a_tip": "Enviar propina",
+      "stripe": "{service}",
+      "subscribe_now": "Suscribirse ahora",
+      "subscription_cancelled": "Suscripción cancelada.",
+      "support_galle": "Apoyar a {appName}",
+      "support_is_never_required_but_it_means_e": "El apoyo nunca es obligatorio, pero lo significa todo para mantener a {appName} con vida. He pasado incontables noches investigando la manera correcta de programar las cosas en lugar de tomar atajos, porque creo que esta comunidad merece herramientas que estén hechas para durar.",
+      "supporting_development_of_new_communityf": "Apoyando el desarrollo de nuevas funciones de VR centradas en la comunidad.",
+      "tiers": {
+        "mega_supporter": {
+          "description": "La mejor forma de ayudarme a mantener {appName} creciendo.",
+          "name": "Mega Colaborador"
+        },
+        "super_supporter": {
+          "description": "Para usuarios que quieren hacer un poco más con sus publicaciones.",
+          "name": "Súper Colaborador"
+        },
+        "supporter": {
+          "description": "Una forma sencilla de ayudar a mantener el proyecto en marcha.",
+          "name": "Colaborador"
+        }
+      },
+      "to_keep_your_data_private_we_dont_use": "Para mantener tus datos privados, no utilizo",
+      "unlock_exclusive_badges_8k_photo_uploads": "Desbloquea insignias exclusivas, subidas de fotos en 8K y más con una suscripción mensual.",
+      "venrey": "Venrey"
+    },
+    "useauth": {
+      "invalid_profile_response": "Respuesta de perfil no válida"
+    },
+    "usecachemanagement": {
+      "all_caches_cleared_successfully": "Caché borrada",
+      "data_refreshed_successfully": "Datos actualizados",
+      "failed_to_clear_cache_pattern": "Error al borrar el patrón de caché",
+      "failed_to_clear_caches": "Error al borrar las cachés",
+      "failed_to_refresh_data": "Error al actualizar los datos"
+    },
+    "usefavorites": {
+      "please_login_to_favorite_images": "Inicia sesión para agregar imágenes a favoritos"
+    },
+    "usefavoritesstate": {
+      "authentication_required": "Se requiere autenticación"
+    },
+    "useimagevieweractions": {
+      "downloading_image": "Descargando imagen...",
+      "failed_to_delete_photo": "Error al eliminar la foto",
+      "failed_to_remove_photo_from_gallery": "Error al quitar la foto de la galería",
+      "link_copied_to_clipboard": "¡Enlace copiado al portapapeles!",
+      "loading": "Cargando...",
+      "not_authenticated": "No se encontró ningún token de autenticación",
+      "photo_deleted_successfully": "Foto eliminada con éxito",
+      "converting_to_png": "Convirtiendo imagen a PNG...",
+      "png_download_ready": "¡Conversión a PNG completa! Descargando...",
+      "failed_to_convert_to_png": "Error al convertir a PNG. Descargando original en su lugar."
+    },
+    "usenotifications": {
+      "browser_notifications_are_blocked_please": "Las notificaciones del navegador están bloqueadas. Actívalas en la configuración de tu navegador.",
+      "browser_notifications_enabled_subscribin": "¡Notificaciones del navegador activadas! Suscribiéndose a las notificaciones push...",
+      "browser_notifications_were_not_enabled": "Las notificaciones del navegador no estaban activadas.",
+      "cleared_all_notifications": "Notificaciones borradas",
+      "could_not_clear_notifications": "Error al borrar notificaciones",
+      "could_not_dismiss_notification": "No se pudo descartar la notificación.",
+      "could_not_mark_notifications_as_read": "No se pudieron marcar las notificaciones como leídas.",
+      "could_not_subscribe_to_push_notification": "No se pudo suscribir a las notificaciones push.",
+      "could_not_subscribe_to_push_notifications": "No se pudo suscribir a las notificaciones push.",
+      "failed_to_clear_all_notifications": "Error al borrar todas las notificaciones",
+      "failed_to_delete_notification": "Error al eliminar la notificación",
+      "failed_to_fetch_notifications": "Error al obtener las notificaciones",
+      "failed_to_mark_all_as_read": "Error al marcar todas como leídas",
+      "new_notification_title": "Nueva notificación: {title}",
+      "push_notifications_are_not_supported_by_": "Las notificaciones push no son compatibles con este navegador.",
+      "successfully_subscribed_to_push_notifica": "¡Suscripción a las notificaciones push realizada con éxito!"
+    },
+    "usephotogallery": {
+      "failed_to_fetch_photos_with_user": "Error al obtener las fotos con el usuario",
+      "no_authentication_token_found": "No se encontró ningún token de autenticación"
+    },
+    "userprofileeditmodal": {
+      "customize_your_presence": "Personaliza tu presencia",
+      "failed_to_delete_account": "Error al eliminar la cuenta",
+      "failed_to_upload_avatar": "Error al subir el avatar",
+      "failed_to_upload_banner": "Error al subir el banner",
+      "save_changes": "Guardar cambios",
+      "tabs": {
+        "account": "Cuenta",
+        "appearance": "Apariencia",
+        "basic_info": "Perfil",
+        "gallery": "Galería",
+        "privacy": "Privacidad"
+      },
+      "this_will_permanently_delete_your_accoun": "Esto eliminará permanentemente tu cuenta y todos los datos asociados.",
+      "your_account_has_been_deleted_successfully": "Tu cuenta se ha eliminado con éxito"
+    },
+    "userprofilepage": {
+      "are_you_sure_unfollow": "¿De verdad quieres dejar de seguir a este usuario?",
+      "could_not_find_the_profile_youre_looking": "No se pudo encontrar el perfil que estás buscando.",
+      "failed_to_update_profile": "Error al actualizar el perfil",
+      "following": "Siguiendo",
+      "gallery_followers_only": "Esta galería solo está disponible para personas que siguen a {profileDisplayName}",
+      "gallery_following_only": "Esta galería solo está disponible para personas a las que {profileDisplayName} sigue",
+      "gallery_not_accessible": "Esta galería no es accesible",
+      "gallery_private": "Esta galería es privada",
+      "gallery_registered_only": "Esta galería solo está disponible para usuarios registrados",
+      "no_followers_description": "Los seguidores aparecerán aquí cuando otros usuarios comiencen a seguir este perfil.",
+      "no_followers_yet": "Aún no hay seguidores",
+      "not_following_anyone_description": "Cuando este usuario siga a alguien, aparecerá aquí.",
+      "not_following_anyone_yet": "Aún no sigue a nadie",
+      "profile_not_found": "Perfil no encontrado",
+      "profile_updated_successfully": "Perfil actualizado con éxito",
+      "unfollow_user": "Dejar de seguir",
+      "profile_unavailable": "Perfil no disponible",
+      "profile_unavailable_desc": "Este perfil no está disponible.",
+      "user_blocked_successfully": "Usuario bloqueado con éxito",
+      "user_unblocked_successfully": "Usuario desbloqueado con éxito",
+      "you_blocked_description": "No verás sus fotos, publicaciones ni recibirás sus mensajes.",
+      "you_blocked_this_user": "Has bloqueado a este usuario"
+    },
+    "useuserprofile": {
+      "failed_to_load_followers": "Error al cargar seguidores",
+      "failed_to_load_following": "Error al cargar seguidos",
+      "failed_to_load_profile": "Error al cargar perfil",
+      "failed_to_load_stats": "Error al cargar estadísticas",
+      "failed_to_update_follow_status": "Error al actualizar el estado de seguimiento: {error}",
+      "please_login_to_follow_users": "Inicia sesión para seguir usuarios",
+      "user_followed_successfully": "Usuario seguido con éxito",
+      "user_unfollowed_successfully": "Usuario dejado de seguir con éxito"
+    },
+    "useuserprofilecontent": {
+      "failed_to_fetch_favorites": "Error al obtener favoritos",
+      "failed_to_fetch_gallery_metadata": "Error al obtener los metadatos de la galería",
+      "failed_to_fetch_gallery_photos": "Error al obtener las fotos de la galería",
+      "failed_to_fetch_user_posts": "Error al obtener las publicaciones del usuario"
+    },
+    "usevrchatcache": {
+      "already_refreshing_user_data_please_wait": "Ya se están actualizando los datos del usuario, por favor espera...",
+      "failed_to_refresh_profile_data": "Error al actualizar los datos del perfil: {error}",
+      "failed_to_refresh_user_cache": "Error al actualizar la caché de usuario: {error}",
+      "please_log_in_to_refresh_your_profile_data": "Inicia sesión para actualizar los datos de tu perfil",
+      "profile_data_refreshed_successfully": "Perfil actualizado"
+    },
+    "vrchatbannerimage": {
+      "failed_to_load_banner": "Error al cargar el banner"
+    },
+    "worldphotosheader": {
+      "public_photos_count": "{count} fotos públicas",
+      "world": "Mundo"
+    },
+    "worldphotospage": {
+      "failed_to_load_photos_please_try_again": "Error al cargar las fotos. Inténtalo de nuevo.",
+      "no_public_photos_found_for_this_world": "No se encontraron fotos públicas para este mundo",
+      "no_public_photos_yet": "Aún no hay fotos públicas",
+      "photos_will_appear_here_when_users_make_": "Las fotos aparecerán aquí cuando los usuarios las hagan públicas",
+      "unable_to_load_photos": "No se pudieron cargar las fotos",
+      "visit_world_in_vrchat": "Visitar mundo en VRChat",
+      "you_must_be_logged_in_to_favorite_photos": "Debes iniciar sesión para agregar fotos a favoritos"
+    }
+  },
+  "feedpostcard": {
+    "post_link_copied": "¡Enlace de la publicación copiado!"
+  },
+  "landinghero": {
+    "captures": "capturas",
+    "join_supporters_count": "999 usuarios",
+    "join_supporters_prefix": "¡Únete a nuestros primeros ",
+    "join_supporters_suffix": " y obtén una insignia especial de Pionero!",
+    "single_dev": "desarrollador único",
+    "users": "usuarios"
+  },
+  "notifications": {
+    "COMMENT_LIKE": {
+      "message": "A <strong>{actorUsername}</strong> le gustó tu comentario: \"{commentText}\"",
+      "title": "Comentario gustado"
+    },
+    "FEED_COMMENT": {
+      "message": "<strong>{actorUsername}</strong> comentó: \"{commentText}\"",
+      "title": "Nuevo comentario"
+    },
+    "FEED_LIKE": {
+      "message": "A <strong>{actorUsername}</strong> le gustó tu publicación: \"{postTitle}\"",
+      "title": "Nuevo me gusta"
+    },
+    "FEED_MENTION": {
+      "message": "<strong>{actorUsername}</strong> te mencionó en una publicación: \"{postTitle}\"",
+      "title": "Nueva mención"
+    },
+    "GROUPED_COMMENTS": {
+      "message": "<strong>{count}</strong> nuevos comentarios en tu publicación.",
+      "title": "Nuevos comentarios"
+    },
+    "GROUPED_FOLLOWERS": {
+      "message": "<strong>{actorUsername}</strong> y <strong>{count}</strong> personas más te siguieron.",
+      "title": "Nuevos seguidores"
+    },
+    "GROUPED_LIKES": {
+      "message": "A <strong>{actorUsername}</strong> y a <strong>{count}</strong> personas más les gustó tu publicación: \"{postTitle}\"",
+      "title": "Nuevos me gusta"
+    },
+    "NEW_FOLLOWER": {
+      "message": "<strong>{actorUsername}</strong> comenzó a seguirte.",
+      "title": "Nuevo seguidor"
+    },
+    "PHOTO_COMMENT": {
+      "message": "<strong>{actorUsername}</strong> comentó en tu foto: \"{commentText}\"",
+      "title": "Nuevo comentario"
+    },
+    "PHOTO_FAVORITE": {
+      "message": "<strong>{actorUsername}</strong> agregó tu foto a favoritos.",
+      "title": "Nuevo favorito"
+    },
+    "PHOTO_TAG": {
+      "message": "<strong>{actorUsername}</strong> te etiquetó en una foto.",
+      "title": "Etiquetado en una foto"
+    },
+    "POST_TAG": {
+      "message": "<strong>{actorUsername}</strong> te etiquetó en una publicación: \"{postTitle}\"",
+      "title": "Etiquetado en una publicación"
+    },
+    "NEW_MESSAGE": {
+      "message": "<strong>{senderUsername}</strong>: {preview}",
+      "title": "Nuevo mensaje"
+    },
+    "NEW_MESSAGE_REQUEST": {
+      "message": "<strong>{senderUsername}</strong> quiere enviarte un mensaje.",
+      "title": "Nueva solicitud de mensaje"
+    },
+    "REFERRAL_SUCCESS": {
+      "message": "¡<strong>{actorUsername}</strong> se unió usando tu enlace!",
+      "title": "Recomendación exitosa"
+    },
+    "SINGLE_ACTOR_LIKES": {
+      "message": "A <strong>{actorUsername}</strong> le gustaron <strong>{count}</strong> de tus publicaciones.",
+      "title": "Nuevos me gusta"
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "Nuevo mensaje del sistema en tu bandeja de entrada",
+      "title": "Mensaje del sistema"
+    }
+  },
+  "pages": {
+    "about": {
+      "description": "Conoce qué es GalleVR, por qué se creó y cómo te ayuda a organizar, buscar y compartir tus capturas de pantalla de VRChat y fotos de VR.",
+      "title": "Acerca de GalleVR"
+    },
+    "credits": {
+      "description": "Conoce a los creadores, desarrolladores, diseñadores y probadores detrás de {appName}.",
+      "title": "Créditos"
+    },
+    "dynamic_gallery": "Galería: {name}",
+    "dynamic_post": "Publicación: {title}",
+    "dynamic_user_profile": "{tab} de {name}",
+    "dynamic_world": "Fotos de {name}",
+    "favorites": {
+      "description": "Tu colección curada de fotos favoritas de VRChat y recuerdos de realidad virtual.",
+      "title": "Favoritos"
+    },
+    "feed": {
+      "description": "Descubre qué está pasando en la comunidad de {appName}.",
+      "title": "Feed"
+    },
+    "feed_post": {
+      "description": "Viendo una publicación de la comunidad de {appName}.",
+      "title": "Publicación del feed"
+    },
+    "galleries": {
+      "description": "Explora tus galerías de fotos personalizadas y dinámicas de VRChat en {appName}.",
+      "title": "Galerías"
+    },
+    "gallery": {
+      "description": "Explora tu galería de fotos de VRChat. Encuentra cualquier foto por mundo y amigos.",
+      "title": "Galería"
+    },
+    "guidelines": {
+      "description": "Lee las directrices para ayudar a mantener a {appName} como un espacio seguro y acogedor.",
+      "title": "Directrices de la comunidad"
+    },
+    "health": {
+      "description": "Comprobando el estado del servidor.",
+      "title": "Salud"
+    },
+    "home": {
+      "description": "Tu panel de fotos de VRChat. Explora tu galería, favoritos y feed de la comunidad.",
+      "title": "Inicio"
+    },
+    "landing": {
+      "description": "Una plataforma social para fotos de VRChat. GalleVR organiza automáticamente tus recuerdos por mundo y amigos, haciéndolos buscables al instante.",
+      "title": "Organiza tus fotos de VR"
+    },
+    "loading_profile": "Cargando perfil...",
+    "privacy": {
+      "description": "Lea la Política de privacidad de {appName} para comprender cómo se protegen sus fotos y sus datos personales.",
+      "title": "Privacidad"
+    },
+    "public_gallery": "Galería de {name}",
+    "search": {
+      "description": "Busca fotos de VRChat, mundos virtuales y amigos en {appName}.",
+      "title": "Buscar"
+    },
+    "settings": {
+      "description": "Personaliza tu experiencia en {appName}.",
+      "title": "Configuración"
+    },
+    "setup": {
+      "description": "Comienza con {appName}. Descarga la app, vincula tu cuenta de VRChat y sincroniza fotos.",
+      "title": "Configurar {appName}"
+    },
+    "success": {
+      "description": "¡Gracias por apoyar a {appName}!",
+      "title": "¡Muchas gracias!"
+    },
+    "stats": {
+      "description": "Monitorea el crecimiento y actividad de la comunidad de GalleVR.",
+      "title": "Estadísticas",
+      "loading": "Cargando estadísticas...",
+      "total_users": "Usuarios verificados totales",
+      "total_photos": "Fotos totales",
+      "total_posts": "Publicaciones totales del feed",
+      "daily_avg_uploads": "Promedio de subidas diarias",
+      "daily_avg_signups": "Promedio de registros diarios",
+      "daily_avg_posts": "Promedio de publicaciones diarias",
+      "photo_to_post_ratio": "Proporción de fotos a publicaciones",
+      "cumulative": "Crecimiento acumulativo",
+      "daily": "Actividad diaria",
+      "timeframe": "Periodo de tiempo",
+      "days_30": "Últimos 30 días",
+      "days_90": "Últimos 90 días",
+      "all_time": "Todo el tiempo",
+      "user_registrations": "Registros de usuarios",
+      "photo_uploads": "Subidas de fotos",
+      "feed_posts": "Posts del feed",
+      "growth_over_time": "Crecimiento de GalleVR a lo largo del tiempo",
+      "error_loading": "Error al cargar estadísticas. Por favor, inténtalo de nuevo más tarde."
+    },
+    "support": {
+      "description": "Apoya el desarrollo de {appName} para mantenerlo gratuito, ilimitado y de código abierto.",
+      "title": "Apoyar a {appName}"
+    },
+    "terms": {
+      "description": "Lea las Condiciones de servicio de {appName}.",
+      "title": "Condiciones de servicio"
+    },
+    "user_profile": {
+      "description": "Viendo detalles y fotos del usuario.",
+      "title": "Perfil de usuario"
+    },
+    "welcome": {
+      "description": "¡Te damos la bienvenida a {appName}! Empieza a organizar tu trayectoria fotográfica en VRChat.",
+      "title": "¡Bienvenido!"
+    },
+    "world_photos": {
+      "description": "Explora fotos públicas de VRChat y capturas de pantalla tomadas en mundos virtuales en {appName}.",
+      "title": "Fotos del mundo"
+    }
+  },
+  "promobanner": {
+    "copy_referral_link": "Copiar enlace de recomendación",
+    "help_grow_community": "¡Ayuda a hacer crecer la comunidad! ¡Consigue que 5 amigos se unan y recibirás al instante tu insignia especial de Embajador!",
+    "link_copied": "¡Enlace copiado!",
+    "unlock_ambassador": "Desbloquear la insignia de Embajador"
+  },
+  "search": {
+    "error_title": "Algo salió mal",
+    "explore_all": "Explorar todo",
+    "no_results": "No se encontraron resultados",
+    "no_results_desc": "No pude encontrar personas ni publicaciones que coincidan con tu búsqueda.",
+    "search": "Búsqueda",
+    "searching": "Buscando...",
+    "updating": "Actualizando...",
+    "view_all": "Ver todo"
+  },
+  "sidebar": {
+    "sign_out": "Cerrar sesión",
+    "view_profile": "Ver perfil",
+    "link_platform_account": "Vincular cuenta de {platform}",
+    "linked_to_platform": "Vinculado a {platform}"
+  },
+  "welcomepage": {
+    "auto_sync": "Sincronización automática de fotos",
+    "auto_sync_desc": "Consigue la app para empezar a sincronizar automáticamente.",
+    "customize_profile": "Personalizar perfil",
+    "customize_profile_desc": "Personaliza tu presencia.",
+    "download_desktop_client": "Descargar cliente de escritorio",
+    "explore_dashboard": "Explorar mi panel",
+    "followers": "Seguidores",
+    "grab_desktop_app": "Obtén la app de escritorio",
+    "grab_desktop_app_desc": "La sincronización requiere la aplicación de GalleVR. Descárgala, vincúlala una vez y ella se encargará del resto para siempre.",
+    "loading_profile": "Cargando previsualización de perfil...",
+    "manual_warning_desc": "Has iniciado sesión en el sitio web, pero no puedes sincronizar ni subir tus fotos automáticamente hasta que vincules la aplicación de escritorio.",
+    "manual_warning_title": "Vincula la app de escritorio para subir fotos",
+    "new_member": "Nuevo miembro",
+    "next_steps": "Pasos siguientes",
+    "photos": "Fotos",
+    "preview_profile": "Previsualizar perfil",
+    "share_galleries": "Compartir galerías",
+    "share_galleries_desc": "Crea álbumes para la comunidad.",
+    "subtitle": "Cuenta creada con éxito. ¡Todo listo para llevar tu trayectoria fotográfica de VRChat al siguiente nivel!",
+    "title_welcome": "Bienvenido a"
+  },
+  "aboutpage": {
+    "title": "Acerca de GalleVR",
+    "subtitle": "Gratuito, ilimitado y de código abierto. Creado con 💜 para la comunidad de VRChat.",
+    "story_title": "Mi historia",
+    "story_p1": "Creé GalleVR porque resultaba incómodo buscar y compartir mis fotos. El explorador de archivos dejaba de responder y yo quería un hogar para mis fotos que fuera privado, pero fácil de compartir. GalleVR etiqueta tus fotos automáticamente con el mundo y los jugadores presentes para que puedas encontrar cualquier foto fácilmente.",
+    "story_p2": "Así que construí un lugar donde puedes ponerlo todo. En lugar de escarbar en tus carpetas, obtienes una galería limpia de tus recuerdos y un feed con las fotos que tus amigos comparten. Es almacenamiento ilimitado y gratuito diseñado pensando en VR y en la gente que lo habita.",
+    "features_title": "Aunque hace más cosas que solo eso.",
+    "features": {
+      "autotagging": {
+        "title": "Sigue tus pasos",
+        "desc": "Quería recordar la trayectoria, así que la app rastrea automáticamente los mundos de cada toma. Nunca más perderás esa foto en Amber Glade ni en ningún otro mundo."
+      },
+      "storage": {
+        "title": "Un proyecto en el que puedes confiar",
+        "desc": "Lo más importante es que quería ser dueño de mis datos. Tus fotos te pertenecen. GalleVR es de código abierto y no depende de nadie para el almacenamiento externo. Creo que tus recuerdos no deberían ser el producto de nadie más."
+      },
+      "feed": {
+        "title": "Un lugar para ponerlo todo",
+        "desc": "En lugar de escarbar en tus carpetas, obtienes una galería limpia de tus recuerdos y un feed con las fotos que tus amigos comparten."
+      },
+      "alerts": {
+        "title": "Encuentra a tus amigos (y a ti mismo)",
+        "desc": "Estaba cansado de perderme las fotos que tomaban los demás, así que creé un sistema de notificaciones que te avisa cada vez que alguien publica una foto en la que apareces."
+      }
+    },
+    "faq_title": "Preguntas frecuentes",
+    "faq": {
+      "what_is_gallevr_q": "¿Qué es GalleVR?",
+      "what_is_gallevr_a": "GalleVR es una galería de fotos y feed social de código abierto, privada por defecto, creada para capturas de pantalla de VRChat. Analiza automáticamente los logs locales para etiquetar tus fotos con mundos y jugadores, haciendo que tu biblioteca de fotos de VR se pueda buscar al instante.",
+      "is_it_free_q": "¿GalleVR es gratis?",
+      "is_it_free_a": "¡Sí! GalleVR es gratuito y cuenta con almacenamiento ilimitado para capturas de pantalla de VRChat. Ofrezco suscripciones opcionales de colaborador para ayudar a cubrir los costos de servidor y alojamiento.",
+      "how_sync_works_q": "¿Cómo funciona la sincronización de fotos?",
+      "how_sync_works_a": "Ejecutas la aplicación ligera de GalleVR (creada con Flutter para Windows, Linux, Meta Quest y Pico). La aplicación complementaria se ejecuta en segundo plano, vigila tu carpeta de capturas de pantalla de VRChat, comprime las imágenes a formato WebP, analiza tus logs de salida locales de VRChat (output_log_*.txt) para hacer coincidir las marcas de tiempo de las fotos con las entradas de jugadores/mundos, y las sube de manera segura a un clúster de almacenamiento SeaweedFS autohospedado.",
+      "privacy_q": "¿Son privadas mis capturas de pantalla de VRChat?",
+      "privacy_q_desc": "Sí. Cada foto que subes es privada por defecto. Eliges exactamente qué hacer público, qué publicar en el feed de la comunidad o qué mostrar en tu perfil.",
+      "login_q": "¿Necesito ingresar mis credenciales de VRChat?",
+      "login_q_desc": "No. Si te registras en la web o eliges la verificación manual en la app, no se requieren credenciales, y la verificación se realiza usando tu estado de VRChat."
+    },
+    "cta_title": "¿Todo listo para organizar tus recuerdos de VRChat?",
+    "cta_desc": "Configura GalleVR en solo unos minutos. Sincroniza tus capturas de pantalla, encuentra a tus amigos y comienza a organizar tus recuerdos hoy mismo.",
+    "video_title": "Mira a GalleVR en acción",
+    "video_desc": "Realiza un recorrido rápido para ver cómo funciona el etiquetado, la sincronización y la organización automática de las capturas de pantalla de VRChat."
+  },
+  "inbox": {
+    "title": "Mensajes",
+    "read": "Leído",
+    "sent": "Enviado",
+    "messages": "Mensajes",
+    "requests": "Solicitudes",
+    "system": "Sistema",
+    "start_chat": "Iniciar chat",
+    "close_chat": "Cerrar chat",
+    "group_chat": "Chat grupal",
+    "create_group": "Crear chat grupal",
+    "new_dm": "Nuevo DM",
+    "group_name": "Nombre del grupo",
+    "group_name_placeholder": "Ej. Club de fotos",
+    "invite_mutuals": "Invitar amigos",
+    "invite_search_placeholder": "Buscar seguidores...",
+    "invite_limit_reached": "Se alcanzó el límite máximo de {limit} miembros.",
+    "mutuals_only_error": "Solo puedes invitar a amigos mutuos.",
+    "new_message_request": "Solicitud de mensaje",
+    "new_message_request_desc": "{username} quiere enviarte un mensaje.",
+    "accept_request": "Aceptar solicitud",
+    "decline_request": "Rechazar solicitud",
+    "decline_confirm": "¿De verdad quieres rechazar esta solicitud de mensaje? No recibirás mensajes de esta conversación.",
+    "no_conversations": "Aún no hay conversaciones.",
+    "no_messages": "Aún no hay mensajes. ¡Di hola!",
+    "no_requests": "No hay solicitudes de mensaje pendientes.",
+    "no_system_messages": "No hay mensajes del sistema.",
+    "mute_conversation": "Silenciar conversación",
+    "unmute_conversation": "Desactivar silencio",
+    "delete_for_everyone": "Eliminar para todos",
+    "edit_message": "Editar mensaje",
+    "save_edit": "Guardar",
+    "edited": "Editado",
+    "deleted_message": "Este mensaje fue eliminado.",
+    "failed_to_start_conversation": "No se pudo iniciar la conversación",
+    "failed_to_create_group": "No se pudo crear el grupo",
+    "failed_to_send_message": "No se pudo enviar el mensaje",
+    "failed_to_send_photo": "No se pudo enviar la foto",
+    "failed_to_share_post": "No se pudo compartir la publicación",
+    "failed_to_edit_message": "No se pudo editar el mensaje",
+    "failed_to_delete_message": "No se pudo eliminar el mensaje",
+    "failed_to_accept_request": "No se pudo aceptar la solicitud",
+    "failed_to_decline_request": "No se pudo rechazar la solicitud",
+    "failed_to_close_conversation": "No se pudo cerrar la conversación",
+    "failed_to_update_notification_settings": "No se pudo actualizar la configuración de notificaciones",
+    "sent_a_photo": "📷 Envió una foto",
+    "sent_a_sticker": "Envió un sticker",
+    "select_sticker_tooltip": "Enviar un Sticker",
+    "failed_to_send_sticker": "Error al enviar el sticker",
+    "shared_a_post": "Compartió una publicación",
+    "type_message_placeholder": "Escribe un mensaje...",
+    "search_chats_placeholder": "Buscar conversaciones...",
+    "select_conversation_desc": "Selecciona una conversación activa o inicia un chat con seguidores mutuos.",
+    "send": "Enviar",
+    "select_photo_tooltip": "Seleccionar foto de la galería",
+    "send_photo_embed": "Enviar foto",
+    "privacy_settings": "Configuración de privacidad de DMs",
+    "dm_everyone": "Todos (los DMs de no mutuos van a solicitudes)",
+    "dm_followers": "Solo seguidores mutuos y seguidores",
+    "dm_nobody": "Nadie",
+    "read_receipts": "Visto",
+    "read_receipts_desc": "Muestra a otros cuándo leíste sus mensajes.",
+    "disable_read_receipts": "Desactivar confirmación de lectura",
+    "system_message_notif": "Nuevo mensaje del sistema en tu bandeja de entrada",
+    "new_dm_notif": "Nuevo mensaje directo de {username}",
+    "new_dm_request_notif": "Nueva solicitud de mensaje en tu bandeja de entrada",
+    "system_sender_name": "Sistema",
+    "no_mutuals": "No se encontraron seguidores mutuos.",
+    "typing_indicators": "Escribiendo...",
+    "typing_indicators_desc": "Muestra cuándo estás escribiendo y ve cuando otros lo hacen.",
+    "age_verification_required": "Se requiere verificación de edad (+18)",
+    "age_verification_required_desc": "Para prevenir problemas de seguridad y moderación, las funciones de mensajería están restringidas a usuarios que hayan completado la verificación de edad oficial de VRChat (VRChat+). Complete la verificación en VRChat para acceder a los mensajes.",
+    "verify_now": "Verificar ahora",
+    "inbox_verification_info": "Solo puede enviar mensajes a usuarios que estén verificados como mayores de 18 años en VRChat, incluso si usted ya está verificado.",
+    "view_system_messages": "Volver a los mensajes del sistema",
+    "reconnecting": "Reconectando...",
+    "load_earlier": "Cargar mensajes anteriores",
+    "group_members": "Miembros del grupo",
+    "participants_count": "{count} participantes",
+    "and_more": "+{count} más",
+    "sticker_approved_msg": "¡Buenas noticias! Tu sticker, \"{name}\", ha sido aprobado.",
+    "sticker_rejected_msg": "Tu sticker \"{name}\" fue rechazado por el moderador {moderator}.\nMotivo: {reason}"
+  }
+}

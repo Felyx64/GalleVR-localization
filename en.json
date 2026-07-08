@@ -24,7 +24,14 @@
     "verification_error": "Something went wrong starting verification. Try again.",
     "verify_identity": "Verify Identity",
     "waiting_for_status": "Waiting for status update...",
-    "yes_sign_in": "Yes, Sign In"
+    "yes_sign_in": "Yes, Sign In",
+    "which_platform": "Which platform do you play on?",
+    "enter_username_resonite": "Enter your Resonite display name",
+    "search_error_resonite": "No Resonite account found with that name. Check spelling and try again.",
+    "account_linked": "Account Linked!",
+    "accounts_now_linked": "Your accounts are now linked.",
+    "send_message_instruction_resonite": "Send a message containing the code below to the GalleVR bot in Resonite to verify your account.",
+    "waiting_for_message_resonite": "Waiting for message..."
   },
   "badges": {
     "admin": {
@@ -63,6 +70,10 @@
       "description": "Owner of {appName}",
       "name": "Owner"
     },
+    "resonite_user": {
+      "description": "Resonite player on {appName}",
+      "name": "Resonite User"
+    },
     "staff": {
       "description": "{appName} Staff Member",
       "name": "Staff"
@@ -92,6 +103,7 @@
     "authentication_failed_please_try_again": "Authentication failed. Please try again.",
     "back": "Back",
     "cancel": "Cancel",
+    "create": "Create",
     "clear_all": "Clear All",
     "collapse": "Collapse",
     "comment_deleted": "Comment deleted",
@@ -163,6 +175,7 @@
     "highlight_post": "Highlight post",
     "highlights": "Highlights",
     "home": "Home",
+    "inbox": "Inbox",
     "i_have_read_and_agree_to_the_terms_of_se": "I have read and agree to the Terms of Service",
     "if_you_decline_the_terms_of_service_you_": "If you decline the Terms of Service, you will be logged out and unable to use the application. Are you sure you want to decline?",
     "link_copied_to_clipboard": "Link copied to clipboard!",
@@ -184,6 +197,7 @@
     "photo_removed_from_gallery": "Photo removed from gallery",
     "photo_shared_to_feed": "Photo shared to the feed!",
     "photos": "Photos",
+    "photos_count": "{count} photo | {count} photos",
     "please_log_in_to_favorite_photos": "Please log in to favorite photos",
     "please_login_to_favorite_images": "Please login to favorite images",
     "post_deleted": "Post deleted.",
@@ -195,6 +209,7 @@
     "profile_link_copied": "Profile link copied!",
     "redirecting": "Redirecting...",
     "refresh": "Refresh",
+    "referred": "Referred",
     "remove_from_favorites": "Remove from favorites",
     "removed_from_favorites": "Removed from favorites",
     "report": "Report",
@@ -207,6 +222,7 @@
     "show_less": "Show less",
     "show_more": "Show more",
     "start": "Start",
+    "stats": "Statistics",
     "status": "Status",
     "support": "Support",
     "system": "System",
@@ -228,7 +244,29 @@
     "you_must_accept_the_terms_of_service_to_": "You must accept the Terms of Service to use this application. You have been logged out.",
     "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos",
     "you_must_be_logged_in_to_highlight_posts": "You must be logged in to highlight posts.",
-    "your": "Your"
+    "your": "Your",
+    "share_gallery": "Share Gallery",
+    "view_only": "Can View",
+    "can_edit": "Can Edit",
+    "collaborators": "Collaborators",
+    "remove_collaborator": "Remove Collaborator",
+    "leave_gallery": "Leave Gallery",
+    "remove_from_my_galleries": "Remove from my galleries",
+    "link_access": "Link Access",
+    "copy_link": "Copy Link",
+    "share_to_recent_dms": "Share to Recent DMs",
+    "no_recent_dms": "No recent DMs",
+    "collaborator_removed": "Collaborator removed successfully",
+    "failed_to_remove_collaborator": "Failed to remove collaborator",
+    "left_gallery": "Successfully left the gallery",
+    "failed_to_leave_gallery": "Failed to leave the gallery",
+    "shared": "Shared",
+    "message_sent": "Message sent successfully!",
+    "failed_to_send_message": "Failed to send message",
+    "transfer_ownership": "Transfer Ownership",
+    "transfer_ownership_confirm": "Are you sure you want to transfer ownership of this gallery to {name}? You will become an editor.",
+    "transfer_ownership_success": "Ownership transferred successfully!",
+    "transfer_ownership_failed": "Failed to transfer ownership"
   },
   "components": {
     "accounttab": {
@@ -240,6 +278,14 @@
       "account_verification": "Account Verification",
       "after_verification_in_the_app_press_the_": "After verification in the app, press the \"Continue\" button below.",
       "already_friends_skip": "Already friends? Skip",
+      "primary_platform": "Which platform do you play on?",
+      "vrchat_desc": "Use your VRChat display name to get started",
+      "resonite_desc": "Use your Resonite display name to get started",
+      "find_resonite_account": "Find your Resonite account",
+      "enter_resonite_display_name": "Enter your Resonite display name",
+      "resonite_search_error": "Could not find this Resonite user. Check spelling or try their display name.",
+      "vrchat_search_error": "Could not find this VRChat user. Please check spelling or try their full User ID.",
+      "verification_start_error": "Something went wrong starting verification. Please try again.",
       "alternative_method_using_a_code_in_your_": "Alternative method using a code in your {platformName} status.",
       "automatic_verification": "Automatic Verification",
       "automatic_verification_uses_a_secure_loc": "Automatic verification uses a secure local login process. Your {platformName} credentials are never sent to GalleVR's servers. Simply follow the app's built-in onboarding to get started.",
@@ -252,7 +298,27 @@
       "use_this_method_if_you_prefer_not_to_log": "Use this method if you prefer not to login with {platformName} locally or if automatic verification isn't working.",
       "when_to_use": "When to use:",
       "your_login_information_never_leaves_your": "Your login information never leaves your device.",
-      "your_privacy_is_key": "Your Privacy is Key:"
+      "your_privacy_is_key": "Your Privacy is Key:",
+      "who_are_you": "Who are you?",
+      "enter_user_id_instruction": "Enter your VRChat Display Name/User ID (usr_...) or Resonite User ID (U-...).",
+      "is_this_you": "Is this you?",
+      "yep_continue": "Yep, Continue!",
+      "final_validation_steps": "Final Validation Steps",
+      "waiting_for_you": "Waiting for you...",
+      "accept_friend_request": "Accept Friend Request",
+      "open_resonite_friend_request": "Open Resonite and accept the contact request from the bot.",
+      "open_vrchat_friend_request": "Open VRChat and accept the friend request from",
+      "check_status": "Check status",
+      "send_verification_code": "Send Verification Code",
+      "change_status_description": "Change Status Description",
+      "complete_step_1_first": "Complete step 1 first to unlock this step.",
+      "send_code_message_resonite": "Send this 8-digit code as a message to the bot in Resonite:",
+      "paste_code_vrchat_status": "Paste this 8-digit code anywhere in your VRChat Status Text:",
+      "waiting_resonite_message": "Waiting for your verification message to be sent to the bot...",
+      "live_monitoring_enabled": "Live monitoring enabled. We will automatically proceed as soon as your status matches!",
+      "waiting_friend_request": "Waiting for you to accept the friend request...",
+      "welcome_board": "Welcome Aboard!",
+      "successfully_verified": "Successfully verified. Logging you in now..."
     },
     "adminbadgemodal": {
       "assign": "Assign",
@@ -307,7 +373,9 @@
       "now": "now",
       "second": "second",
       "seconds": "seconds",
-      "your_profile": "Your profile"
+      "your_profile": "Your profile",
+      "reply": "Reply",
+      "replying_to": "Replying to {name}"
     },
     "communityguidelinesheader": {
       "help_us_keep_gallevr_a_safe_and_welcomin": "Help keep {appName} a safe and welcoming space"
@@ -364,6 +432,29 @@
       "share_moments": "Share Moments",
       "the_final_step_is_to_connect_the_app_to_": "The final step is to connect the app to the website. Welcome to {appName}!",
       "youre_all_set": "You're All Set!"
+    },
+    "createfeedpostmodal": {
+      "add": "Add",
+      "an_error_occurred": "An error occurred.",
+      "choose_photo_tooltip": "Choose photo",
+      "choose_photos_placeholder": "Click to choose photos from your gallery (up to 4)",
+      "failed_to_create_post": "Failed to create post.",
+      "gallery": "Gallery",
+      "loading_galleries": "Loading galleries...",
+      "new_post": "New Post",
+      "no_public_galleries_desc": "No public galleries found. Make a gallery public to share it to the feed.",
+      "optional_post_title": "Optional post title...",
+      "photo": "Photo",
+      "post": "Post",
+      "posted_to_feed": "Posted to feed!",
+      "public": "Public",
+      "sharing_gallery": "Sharing \"{name}\"",
+      "tags_placeholder": "Tags (comma separated)",
+      "untitled": "Untitled",
+      "whats_happening": "What's happening?",
+      "you": "You",
+      "show_world_data": "Show World Data",
+      "show_player_tags": "Show Player Tags"
     },
     "creditspage": {
       "android": "Android",
@@ -443,9 +534,26 @@
       "feed": "Feed"
     },
     "feedpage": {
+      "empty_following_desc": "Follow users to see their posts in your feed.",
+      "empty_following_title": "Nothing to see here... yet!",
+      "empty_furality_desc": "Be the first to share a photo from a Furality world!",
+      "empty_furality_title": "No Furality posts yet.",
+      "empty_highlights_desc": "Supporters can highlight posts to show them here!",
+      "empty_highlights_title": "No highlights yet.",
+      "empty_new_desc": "Be the first to share a photo to the feed!",
+      "empty_new_title": "No new posts.",
+      "empty_trending_desc": "Check back later to see what's trending.",
+      "empty_trending_title": "No trending posts right now.",
       "failed_to_fetch_feed": "Failed to fetch feed",
+      "gallery": "Gallery",
       "loading_feed": "Loading feed...",
+      "new_post": "New post",
+      "photo": "Photo",
       "post_not_found_or_you_do_not_have_access": "Post not found or you do not have access.",
+      "share_gallery": "Share a gallery",
+      "share_photo": "Share a photo",
+      "scroll_to_top": "Scroll to Top",
+      "whats_happening": "What's happening?",
       "youve_reached_the_end_of_the_feed": "You've reached the end of the feed."
     },
     "feedpostcard": {
@@ -499,6 +607,7 @@
         "public": "Public Only"
       },
       "preview_gallery": "preview Gallery",
+      "not": "Not",
       "search_players": "Search players...",
       "search_worlds": "Search worlds...",
       "select_access_type": "Select Access Type",
@@ -538,6 +647,7 @@
     },
     "galleryviewerheader": {
       "all_dates": "All dates",
+      "default_sort": "Default Sort",
       "filters": "Filters:",
       "from_date": "From {date}",
       "gallery_link_copied": "Gallery link copied!",
@@ -574,12 +684,20 @@
       "community_feed": "Community Feed",
       "no_photos_of_you_by_others_found": "No photos with you by others found",
       "photos_of_you_by_others": "Photos with You by Others",
+      "photos_you_are_in": "Photos You're In",
+      "photos_you_might_be_in": "Photos You Might Be In",
+      "no_photos_you_are_in_found": "No tagged photos found",
+      "no_photos_you_might_be_in_found": "No potential photos found",
+      "when_others_tag_you_they_will_show_up_here": "When others tag you in their photos, they'll show up here.",
+      "when_you_are_in_the_world_but_not_tagged": "Photos taken while you were in the same world instance but not tagged.",
       "quickly_access_all_your_most_loved_momen": "Quickly access all your most loved moments.",
       "see_whats_new_in_the_gallevr_community": "See what's new in the {appName} community.",
       "view_all": "View All",
       "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "When others take photos that include you and make them public, they'll show up here",
       "your_favorites": "Your Favorites",
-      "your_gallery": "Your Gallery"
+      "your_gallery": "Your Gallery",
+      "gallevr_discord": "GalleVR Discord",
+      "discord_desc": "Join the community, share feedback, and get the latest updates."
     },
     "imageeditor": {
       "adjustments": "Adjustments",
@@ -638,12 +756,15 @@
       "failed_to_save_tag": "Failed to save tag",
       "filter_people_in_photo": "Filter people in photo...",
       "finish_tagging": "Finish tagging",
+      "finish_stickers": "Finish Stickers",
       "no_matches_found": "No matches found",
       "no_people_detected_in_this_images_metada": "No people detected in this image's metadata.",
       "remove_tag": "Remove tag",
       "tag_people": "Tag people",
       "tag_this_person": "Tag this person",
-      "uploading_edited_photo": "Uploading edited photo..."
+      "uploading_edited_photo": "Uploading edited photo...",
+      "flip_horizontal": "Flip Horizontally",
+      "flipping_image": "Flipping image..."
     },
     "imagevieweractions": {
       "are_you_sure_you_want_to_delete_this_photo": "Are you sure you want to delete this photo?",
@@ -670,7 +791,23 @@
       "report_photo": "Report photo",
       "upload_edited_version": "Upload edited version",
       "view_comments": "View comments",
-      "view_players": "View players"
+      "view_players": "View players",
+      "sticker_mode": "Sticker Mode"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "saved_tab": "Saved",
+      "my_stickers_tab": "Mine",
+      "upload_tab": "Upload",
+      "upload_limit": "Super Supporters only (max 5MB)",
+      "upload_warning": "NSFW/explicit stickers are strictly forbidden. All uploads must be approved by the GalleVR moderation team before others can view, save, or use them.",
+      "sticker_details": "Sticker Details",
+      "custom_sticker": "Custom Sticker",
+      "unknown_uploader": "Unknown",
+      "save_sticker_btn": "Save Sticker",
+      "sticker_saved": "Sticker saved to your picker!",
+      "failed_to_save": "Failed to save sticker",
+      "click_to_view_details": "Click to view details"
     },
     "landingcta": {
       "download_app": "Download App",
@@ -829,12 +966,27 @@
     "photogallery": {
       "failed_to_fetch_photos_with_user": "Failed to fetch photos with user"
     },
+    "photopickermodal": {
+      "clear_search": "Clear search",
+      "filter_placeholder": "Filter by world, player or date...",
+      "loading_photos": "Loading your photos...",
+      "no_photos_match": "No photos match your filter",
+      "pick_one_photo": "Pick one photo from your gallery",
+      "pick_up_to_5_photos": "Pick up to 5 photos from your gallery",
+      "photos_selected": "{count} photo selected | {count} photos selected",
+      "select": "Select",
+      "select_a_photo": "Select a Photo",
+      "select_photos": "Select Photos",
+      "sort_newest_first": "Sort Newest First",
+      "sort_oldest_first": "Sort Oldest First"
+    },
     "photoselectionmodal": {
       "add_selected": "Add Selected",
       "clear_search": "Clear Search",
       "filter_by_world_player_or_date": "Filter by world, player, or date",
       "loading_your_library": "Loading your library...",
       "no_photos_match_your_filter": "No photos match your filter",
+      "photos_selected": "{count} photo selected | {count} photos selected",
       "select_all_visible": "Select All Visible",
       "select_photos_to_add_to_this_gallery": "Select photos to add to this gallery",
       "try_adjusting_your_search_terms_or_filte": "Try adjusting your search terms or filters to find what you're looking for."
@@ -872,7 +1024,15 @@
       "run_installer": "Run Installer",
       "sideload_apk": "Sideload APK",
       "use_sidequest_or_adb_to_install_the_down": "Use Side{device} or ADB to install the downloaded",
-      "view_on_meta_store": "View on Meta Store"
+      "view_on_meta_store": "View on Meta Store",
+      "resonite_integration": "Resonite Integration",
+      "resonite_desc": "If you are using {appName} with Resonite, make sure you have the following installed to ensure a completely seamless experience with photo metadata tracking:",
+      "resonite_modloader": "ResoniteModLoader",
+      "resonite_modloader_desc": "(Required for mods)",
+      "resonite_ss_ext": "ResoniteScreenshotExtensions",
+      "resonite_ss_ext_desc": "(Saves screenshot metadata)",
+      "resonite_fix_metadata": "FixPhotoMetadata",
+      "resonite_fix_metadata_desc": "(Aligns metadata format for {appName})"
     },
     "privacytab": {
       "control_who_can_see_your_content": "Control who can see your content",
@@ -907,7 +1067,9 @@
       "total_favorites": "Total Favorites",
       "views": "Views",
       "vrchat_join_date": "{platformName} Join Date",
-      "vrchat_profile": "{platformName} Profile"
+      "vrchat_profile": "{platformName} Profile",
+      "block_user": "Block User",
+      "unblock_user": "Unblock User"
     },
     "profilepoststab": {
       "loading_posts": "Loading posts...",
@@ -964,7 +1126,9 @@
       "submit": "Submit",
       "submit_report": "Submit Report",
       "unknown_user": "Unknown User",
-      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to the moderation team for review. We take all reports seriously and will investigate as soon as possible."
+      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to the moderation team for review. We take all reports seriously and will investigate as soon as possible.",
+      "report_message": "Report Message",
+      "reporting_message_by": "Reporting message by:"
     },
     "searchbar": {
       "no_recent_searches": "No recent searches",
@@ -993,6 +1157,7 @@
       "users": "Users"
     },
     "settingspage": {
+      "account": "Account",
       "appearance": "Appearance",
       "date_auto": "Auto (System)",
       "date_format": "Date Format",
@@ -1000,18 +1165,24 @@
       "date_gb": "Europe",
       "date_jp": "Japan",
       "date_us": "America",
+      "dm_privacy_description": "Control who is allowed to send you private messages.",
       "disables_page_transitions_and_complex_an": "Disables page transitions and complex animations. Enable this if you prefer a static interface or are sensitive to motion.",
       "dyslexic_font": "OpenDyslexic Font",
       "dyslexic_font_description": "Replaces the default font with OpenDyslexic, a typeface designed to improve readability for readers with dyslexia.",
       "language_en": "English",
+      "language_es": "Español",
       "language_ja": "日本語",
       "manage_your_preferences_and_account": "Manage your preferences and account",
       "reduced_motion": "Reduced Motion",
       "select_format": "Select format...",
       "select_language": "Select language...",
       "settings": "Settings",
+      "sign_out": "Sign Out",
+      "sign_out_description": "Sign out of this browser. You will need to sign in again to manage photos.",
       "ui_language": "UI Language",
-      "ui_language_description": "Choose your preferred language for the application interface."
+      "ui_language_description": "Choose your preferred language for the application interface.",
+      "download_png": "Download as PNG",
+      "download_png_description": "Convert WebP images to PNG locally when downloading."
     },
     "setupfooter": {
       "back_to_home": "Back to Home",
@@ -1034,7 +1205,9 @@
       "failed_to_share_post": "Failed to share post.",
       "landscape_avatar_event": "landscape, avatar, event",
       "photo_shared_to_the_feed": "Photo shared to the feed!",
-      "share_post": "Share Post"
+      "share_post": "Share Post",
+      "show_world_data": "Show World Data",
+      "show_player_tags": "Show Player Tags"
     },
     "sidebar": {
       "collapse": "Collapse",
@@ -1173,7 +1346,10 @@
       "link_copied_to_clipboard": "Link copied to clipboard!",
       "loading": "Loading...",
       "not_authenticated": "No authentication token found",
-      "photo_deleted_successfully": "Photo deleted successfully"
+      "photo_deleted_successfully": "Photo deleted successfully",
+      "converting_to_png": "Converting image to PNG...",
+      "png_download_ready": "PNG conversion complete! Downloading...",
+      "failed_to_convert_to_png": "Failed to convert image to PNG. Downloading original instead."
     },
     "usenotifications": {
       "browser_notifications_are_blocked_please": "Browser notifications are blocked. Please enable them in your browser settings.",
@@ -1229,7 +1405,13 @@
       "not_following_anyone_yet": "Not following anyone yet",
       "profile_not_found": "Profile Not Found",
       "profile_updated_successfully": "Profile updated successfully",
-      "unfollow_user": "Unfollow User"
+      "unfollow_user": "Unfollow User",
+      "profile_unavailable": "Profile Unavailable",
+      "profile_unavailable_desc": "This profile is not available.",
+      "user_blocked_successfully": "User blocked successfully",
+      "user_unblocked_successfully": "User unblocked successfully",
+      "you_blocked_description": "You will not see their photos, posts, or receive messages from them.",
+      "you_blocked_this_user": "You have blocked this user"
     },
     "useuserprofile": {
       "failed_to_load_followers": "Failed to load followers",
@@ -1331,6 +1513,14 @@
       "message": "<strong>{actorUsername}</strong> tagged you in a post: \"{postTitle}\"",
       "title": "Tagged in Post"
     },
+    "NEW_MESSAGE": {
+      "message": "<strong>{senderUsername}</strong>: {preview}",
+      "title": "New Message"
+    },
+    "NEW_MESSAGE_REQUEST": {
+      "message": "<strong>{senderUsername}</strong> wants to message you.",
+      "title": "New Message Request"
+    },
     "REFERRAL_SUCCESS": {
       "message": "<strong>{actorUsername}</strong> joined using your link!",
       "title": "Successful Referral"
@@ -1338,6 +1528,10 @@
     "SINGLE_ACTOR_LIKES": {
       "message": "<strong>{actorUsername}</strong> liked <strong>{count}</strong> of your posts.",
       "title": "New Likes"
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "New system message in your inbox",
+      "title": "System Message"
     }
   },
   "pages": {
@@ -1411,6 +1605,29 @@
       "description": "Thank you for supporting {appName}!",
       "title": "Thank You!"
     },
+    "stats": {
+      "description": "Track the growth and activity of the GalleVR community.",
+      "title": "Statistics",
+      "loading": "Loading statistics...",
+      "total_users": "Total Verified Users",
+      "total_photos": "Total Photos",
+      "total_posts": "Total Feed Posts",
+      "daily_avg_uploads": "Daily Avg Uploads",
+      "daily_avg_signups": "Daily Avg Signups",
+      "daily_avg_posts": "Daily Avg Posts",
+      "photo_to_post_ratio": "Photo to Post Ratio",
+      "cumulative": "Cumulative Growth",
+      "daily": "Daily Activity",
+      "timeframe": "Timeframe",
+      "days_30": "Last 30 Days",
+      "days_90": "Last 90 Days",
+      "all_time": "All Time",
+      "user_registrations": "User Registrations",
+      "photo_uploads": "Photo Uploads",
+      "feed_posts": "Feed Posts",
+      "growth_over_time": "GalleVR Growth Over Time",
+      "error_loading": "Failed to load statistics. Please try again later."
+    },
     "support": {
       "description": "Support the development of {appName} to keep it free, unlimited, and open source.",
       "title": "Support {appName}"
@@ -1450,7 +1667,9 @@
   },
   "sidebar": {
     "sign_out": "Sign Out",
-    "view_profile": "View Profile"
+    "view_profile": "View Profile",
+    "link_platform_account": "Link {platform} account",
+    "linked_to_platform": "Linked to {platform}"
   },
   "welcomepage": {
     "auto_sync": "Auto-sync all photos",
@@ -1516,5 +1735,88 @@
     "cta_desc": "Set up GalleVR in just a few minutes. Sync your screenshots, find your friends, and start organizing your memories today.",
     "video_title": "Watch GalleVR in Action",
     "video_desc": "Take a quick walkthrough tour to see how automatically tagging, syncing, and organizing VRChat screenshots works."
+  },
+  "inbox": {
+    "title": "Inbox",
+    "read": "Read",
+    "sent": "Sent",
+    "messages": "Messages",
+    "requests": "Requests",
+    "system": "System",
+    "start_chat": "Start Chat",
+    "close_chat": "Close Chat",
+    "group_chat": "Group Chat",
+    "create_group": "Create Group Chat",
+    "new_dm": "New DM",
+    "group_name": "Group Name",
+    "group_name_placeholder": "E.g. Photo Club",
+    "invite_mutuals": "Invite Mutual Followers",
+    "invite_search_placeholder": "Search followers...",
+    "invite_limit_reached": "Maximum of {limit} members reached.",
+    "mutuals_only_error": "You can only invite people who follow you back.",
+    "new_message_request": "New Message Request",
+    "new_message_request_desc": "{username} wants to send you a message.",
+    "accept_request": "Accept Request",
+    "decline_request": "Decline Request",
+    "decline_confirm": "Are you sure you want to decline this message request? You will not receive messages from this conversation.",
+    "no_conversations": "No conversations yet.",
+    "no_messages": "No messages yet. Say hello!",
+    "no_requests": "No pending message requests.",
+    "no_system_messages": "No system messages.",
+    "mute_conversation": "Mute Conversation",
+    "unmute_conversation": "Unmute Conversation",
+    "delete_for_everyone": "Delete for Everyone",
+    "edit_message": "Edit Message",
+    "save_edit": "Save",
+    "edited": "Edited",
+    "deleted_message": "This message was deleted.",
+    "failed_to_start_conversation": "Failed to start conversation",
+    "failed_to_create_group": "Failed to create group",
+    "failed_to_send_message": "Failed to send message",
+    "failed_to_send_photo": "Failed to send photo",
+    "failed_to_share_post": "Failed to share post",
+    "failed_to_edit_message": "Failed to edit message",
+    "failed_to_delete_message": "Failed to delete message",
+    "failed_to_accept_request": "Failed to accept request",
+    "failed_to_decline_request": "Failed to decline request",
+    "failed_to_close_conversation": "Failed to close conversation",
+    "failed_to_update_notification_settings": "Failed to update notification settings",
+    "sent_a_photo": "📷 Sent a photo",
+    "sent_a_sticker": "Sent a sticker",
+    "select_sticker_tooltip": "Send a Sticker",
+    "failed_to_send_sticker": "Failed to send sticker",
+    "shared_a_post": "Shared a post",
+    "type_message_placeholder": "Type a message...",
+    "search_chats_placeholder": "Search conversations...",
+    "select_conversation_desc": "Select an active conversation or start a new message chat with mutual followers.",
+    "send": "Send",
+    "select_photo_tooltip": "Select Photo from Gallery",
+    "send_photo_embed": "Send Photo",
+    "privacy_settings": "DM Privacy Settings",
+    "dm_everyone": "Everyone (DMs from non-mutuals go to requests)",
+    "dm_followers": "Mutuals and Followers Only",
+    "dm_nobody": "Nobody",
+    "read_receipts": "Read Receipts",
+    "read_receipts_desc": "Let others see when you have read their messages.",
+    "disable_read_receipts": "Disable Read Receipts",
+    "system_message_notif": "New system message in your inbox",
+    "new_dm_notif": "New direct message from {username}",
+    "new_dm_request_notif": "New message request in your inbox",
+    "system_sender_name": "System",
+    "no_mutuals": "No mutual followers found.",
+    "typing_indicators": "Typing Indicators",
+    "typing_indicators_desc": "Show others when you are typing, and see when they are typing.",
+    "age_verification_required": "18+ Age Verification Required",
+    "age_verification_required_desc": "To prevent safety and moderation issues, messaging features are restricted to users who have completed VRChat's official VRChat+ age verification. Please complete verification on VRChat to access messages.",
+    "verify_now": "Verify Now",
+    "inbox_verification_info": "You can only message users who are 18+ verified on VRChat, even if you are already verified yourself.",
+    "view_system_messages": "Back to System Messages",
+    "reconnecting": "Reconnecting...",
+    "load_earlier": "Load earlier messages",
+    "group_members": "Group Members",
+    "participants_count": "{count} participants",
+    "and_more": "+{count} more",
+    "sticker_approved_msg": "Good news! Your sticker, \"{name}\", was approved!",
+    "sticker_rejected_msg": "Your sticker \"{name}\" was rejected by moderator {moderator}.\nReason: {reason}"
   }
 }
